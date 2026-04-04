@@ -77,3 +77,24 @@ document.querySelectorAll('.key-point').forEach((point) => {
         point.style.transform = '';
     });
 });
+
+// ===== Banksy Popup =====
+const banksyImage = document.getElementById('banksyImage');
+const banksyPopup = document.getElementById('banksyPopup');
+const banksyClose = document.getElementById('banksyClose');
+
+if (banksyImage && banksyPopup) {
+    banksyImage.addEventListener('click', () => {
+        banksyPopup.classList.add('active');
+    });
+
+    banksyClose.addEventListener('click', () => {
+        banksyPopup.classList.remove('active');
+    });
+
+    banksyPopup.addEventListener('click', (e) => {
+        if (e.target === banksyPopup) {
+            banksyPopup.classList.remove('active');
+        }
+    });
+}

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>01 — Introduction | Art, Music & Video Games in Social Change</title>
     <link rel="stylesheet" href="introduction.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -47,12 +48,29 @@
 
         <!-- Image Block 1 -->
         <section class="image-block reveal">
-            <div class="image-placeholder" data-label="Protest art / mural — e.g. Banksy or Diego Rivera">
-                <!-- Replace this div with: <img src="your-image.jpg" alt="Description"> -->
-                <span class="placeholder-icon">&#9881;</span>
-                <span class="placeholder-text">Image: Protest Art / Revolutionary Mural</span>
+            <div class="image-clickable" id="banksyImage">
+                <img src="/img/Bansk1.jpg" alt="Banksy — Love is in the Air (Flower Thrower)">
+                <span class="image-click-hint"><i class="bi bi-zoom-in"></i> Click for details</span>
             </div>
             <p class="image-caption">Art has long served as a visual language of resistance — from murals to street installations.</p>
+
+            <!-- Popup Bubble -->
+            <div class="popup-overlay" id="banksyPopup">
+                <div class="popup-bubble">
+                    <button class="popup-close" id="banksyClose"><i class="bi bi-x-lg"></i></button>
+                    <h3>Banksy — <em>Love is in the Air</em></h3>
+                    <p>
+                        Also known as the <strong>Flower Thrower</strong>, this iconic stencil by the anonymous street artist Banksy
+                        first appeared in 2003 on a wall near the Israeli West Bank barrier in Jerusalem. It depicts a masked
+                        protester in a throwing pose — but instead of a Molotov cocktail, he hurls a bouquet of flowers.
+                    </p>
+                    <p>
+                        The piece is a powerful statement about peaceful resistance: replacing violence with beauty, destruction
+                        with hope. It has become one of the most recognisable works of political street art in the world,
+                        symbolising the idea that art itself can be an act of defiance.
+                    </p>
+                </div>
+            </div>
         </section>
 
         <!-- Key Ideas -->
@@ -60,28 +78,28 @@
             <h2>Why Does Art Drive Social Change?</h2>
             <div class="key-points">
                 <div class="key-point">
-                    <span class="key-icon">&#127912;</span>
+                    <span class="key-icon"><i class="bi bi-eye"></i></span>
                     <div>
                         <h3>It Makes the Invisible Visible</h3>
                         <p>Art gives form to emotions and injustices that words alone often cannot capture. A single image or melody can convey what a thousand speeches cannot.</p>
                     </div>
                 </div>
                 <div class="key-point">
-                    <span class="key-icon">&#127911;</span>
+                    <span class="key-icon"><i class="bi bi-people"></i></span>
                     <div>
                         <h3>It Unites Communities</h3>
                         <p>Shared songs, murals, and stories create a sense of belonging and collective identity — essential fuel for any social movement.</p>
                     </div>
                 </div>
                 <div class="key-point">
-                    <span class="key-icon">&#127918;</span>
+                    <span class="key-icon"><i class="bi bi-controller"></i></span>
                     <div>
                         <h3>It Builds Empathy</h3>
                         <p>Video games and interactive media place us in someone else's shoes, fostering understanding across cultural and social divides.</p>
                     </div>
                 </div>
                 <div class="key-point">
-                    <span class="key-icon">&#9996;</span>
+                    <span class="key-icon"><i class="bi bi-megaphone"></i></span>
                     <div>
                         <h3>It Challenges Power</h3>
                         <p>Satire, protest music, and subversive art have historically been among the first targets of censorship — proof of their disruptive power.</p>
@@ -94,7 +112,7 @@
         <section class="image-block reveal">
             <div class="image-placeholder" data-label="Musicians at a protest / concert for a cause">
                 <!-- Replace this div with: <img src="your-image.jpg" alt="Description"> -->
-                <span class="placeholder-icon">&#127925;</span>
+                <span class="placeholder-icon"><i class="bi bi-music-note-beamed"></i></span>
                 <span class="placeholder-text">Image: Music at a Social Movement / Protest Concert</span>
             </div>
             <p class="image-caption">From Woodstock to modern benefit concerts, music has always rallied people around a cause.</p>
@@ -120,7 +138,7 @@
         <section class="image-block reveal">
             <div class="image-placeholder" data-label="Video game screenshot — e.g. This War of Mine, Papers Please, or similar">
                 <!-- Replace this div with: <img src="your-image.jpg" alt="Description"> -->
-                <span class="placeholder-icon">&#127918;</span>
+                <span class="placeholder-icon"><i class="bi bi-joystick"></i></span>
                 <span class="placeholder-text">Image: Video Game Exploring Social Themes</span>
             </div>
             <p class="image-caption">Games like <em>This War of Mine</em> and <em>Papers, Please</em> use interactivity to confront players with moral dilemmas.</p>
