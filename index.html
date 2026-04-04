@@ -11,16 +11,26 @@
 </head>
 <body>
 
+    <div class="scroll-progress-bar" id="scrollProgress"></div>
+    <div class="noise-overlay"></div>
+
     <!-- Hero Section -->
     <header class="hero">
         <div class="hero-overlay"></div>
+        <canvas id="constellation"></canvas>
+        <div class="aurora">
+            <div class="aurora-band aurora-1"></div>
+            <div class="aurora-band aurora-2"></div>
+            <div class="aurora-band aurora-3"></div>
+        </div>
+        <div class="floating-shapes" id="floatingShapes"></div>
         <div class="particles" id="particles"></div>
         <div class="hero-content">
             <p class="hero-tagline">A Presentation on</p>
             <h1 class="hero-title">The Role of <span class="accent">Art</span>, <span class="accent">Music</span> &amp; <span class="accent">Video Games</span> in Social Change</h1>
             <p class="hero-subtitle">How creativity has shaped movements, challenged power, and united communities throughout history.</p>
             <p class="hero-authors">By Mihnea Poputoaia &amp; Simone Ferrero</p>
-            <a href="#contents" class="hero-cta">Explore the Presentation</a>
+            <a href="#contents" class="hero-cta"><span class="cta-glow-ring"></span>Explore the Presentation</a>
         </div>
         <div class="scroll-indicator">
             <span>&#8595;</span>

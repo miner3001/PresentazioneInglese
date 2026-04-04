@@ -490,3 +490,331 @@ body:hover .cursor-glow {
         padding: 4rem 1.25rem 5rem;
     }
 }
+
+/* ===== SCROLL PROGRESS BAR ===== */
+.scroll-progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 3px;
+    width: 0%;
+    background: linear-gradient(90deg, var(--clr-accent), var(--clr-accent-alt), var(--clr-accent));
+    background-size: 200% 100%;
+    animation: shimmer 2s linear infinite;
+    z-index: 10000;
+    box-shadow: 0 0 12px rgba(232, 164, 74, 0.6), 0 0 30px rgba(232, 164, 74, 0.2);
+}
+
+/* ===== NOISE OVERLAY ===== */
+.noise-overlay {
+    position: fixed;
+    inset: -50%;
+    width: 200%;
+    height: 200%;
+    z-index: 10001;
+    pointer-events: none;
+    opacity: 0.025;
+    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    background-size: 256px 256px;
+    animation: noiseShift 0.3s steps(3) infinite;
+}
+
+@keyframes noiseShift {
+    0%   { transform: translate(0, 0); }
+    33%  { transform: translate(-5%, -8%); }
+    66%  { transform: translate(3%, 5%); }
+    100% { transform: translate(0, 0); }
+}
+
+/* ===== CONSTELLATION CANVAS ===== */
+#constellation {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
+}
+
+/* ===== AURORA EFFECT ===== */
+.aurora {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 0;
+    mix-blend-mode: screen;
+    opacity: 0.35;
+}
+
+.aurora-band {
+    position: absolute;
+    width: 200%;
+    height: 45%;
+    filter: blur(90px);
+    animation: auroraDrift 8s ease-in-out infinite alternate;
+    will-change: transform;
+}
+
+.aurora-1 {
+    top: -15%;
+    left: -50%;
+    background: linear-gradient(120deg, transparent 25%, rgba(232, 164, 74, 0.18) 50%, transparent 75%);
+    animation-duration: 9s;
+}
+
+.aurora-2 {
+    top: 20%;
+    left: -30%;
+    background: linear-gradient(120deg, transparent 25%, rgba(196, 111, 211, 0.14) 50%, transparent 75%);
+    animation-duration: 13s;
+    animation-delay: -4s;
+}
+
+.aurora-3 {
+    top: 55%;
+    left: -40%;
+    background: linear-gradient(120deg, transparent 25%, rgba(232, 164, 74, 0.1) 50%, transparent 75%);
+    animation-duration: 11s;
+    animation-delay: -2s;
+}
+
+@keyframes auroraDrift {
+    0%   { transform: translateX(0) rotate(-2deg) scaleY(1); }
+    33%  { transform: translateX(15%) rotate(1deg) scaleY(1.3); }
+    66%  { transform: translateX(-10%) rotate(-1deg) scaleY(0.85); }
+    100% { transform: translateX(20%) rotate(2deg) scaleY(1.15); }
+}
+
+/* ===== FLOATING GEOMETRIC SHAPES ===== */
+.floating-shapes {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.floating-shape {
+    position: absolute;
+    border: 1px solid;
+    pointer-events: none;
+    opacity: 0;
+    animation: shapeFloat linear infinite;
+}
+
+.shape-circle {
+    border-radius: 50%;
+}
+
+.shape-diamond {
+    transform: rotate(45deg);
+}
+
+@keyframes shapeFloat {
+    0%   { opacity: 0; transform: translateY(100vh) rotate(0deg); }
+    10%  { opacity: 0.12; }
+    90%  { opacity: 0.12; }
+    100% { opacity: 0; transform: translateY(-20vh) rotate(360deg); }
+}
+
+/* ===== CUSTOM SCROLLBAR ===== */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--clr-bg);
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, var(--clr-accent), var(--clr-accent-alt));
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--clr-accent);
+}
+
+/* ===== ENHANCED GLASSMORPHISM CARDS ===== */
+.toc-card {
+    background: rgba(28, 28, 38, 0.55);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.toc-card-inner {
+    transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* Rotating gradient border */
+.card-border-glow {
+    position: absolute;
+    inset: -1px;
+    border-radius: 16px;
+    background: conic-gradient(from var(--border-angle, 0deg), transparent 55%, var(--clr-accent) 78%, var(--clr-accent-alt) 88%, transparent 100%);
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.toc-card:hover .card-border-glow {
+    opacity: 1;
+}
+
+/* Card shimmer sweep */
+.card-shimmer {
+    position: absolute;
+    inset: 0;
+    border-radius: 16px;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 2;
+}
+
+.card-shimmer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 60%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.04), transparent);
+}
+
+.toc-card:hover .card-shimmer::before {
+    animation: cardSweep 1.2s ease-in-out;
+}
+
+@keyframes cardSweep {
+    0%   { left: -100%; }
+    100% { left: 200%; }
+}
+
+/* ===== CLICK RIPPLE ===== */
+.ripple {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(232, 164, 74, 0.25);
+    transform: scale(0);
+    animation: rippleEffect 0.6s ease-out forwards;
+    pointer-events: none;
+    z-index: 5;
+    width: 20px;
+    height: 20px;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+
+@keyframes rippleEffect {
+    to { transform: scale(6); opacity: 0; }
+}
+
+/* ===== TEXT SCRAMBLE ===== */
+.scramble-char {
+    color: var(--clr-accent-alt);
+    opacity: 0.6;
+    font-weight: 400;
+}
+
+/* ===== PARTICLE RINGS ===== */
+.particle-ring {
+    position: absolute;
+    border: 1px solid rgba(232, 164, 74, 0.15);
+    border-radius: 50%;
+    opacity: 0;
+    animation: particleRingFloat 18s linear infinite;
+    pointer-events: none;
+}
+
+@keyframes particleRingFloat {
+    0%   { opacity: 0; transform: translateY(100vh) rotate(0deg) scale(0.5); }
+    10%  { opacity: 0.25; }
+    90%  { opacity: 0.25; }
+    100% { opacity: 0; transform: translateY(-20vh) rotate(180deg) scale(1.5); }
+}
+
+/* ===== MAGNETIC CTA GLOW RING ===== */
+.cta-glow-ring {
+    position: absolute;
+    inset: -3px;
+    border-radius: 50px;
+    background: conic-gradient(from var(--border-angle, 0deg), var(--clr-accent), var(--clr-accent-alt), var(--clr-accent));
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask-composite: exclude;
+    padding: 2px;
+}
+
+.hero-cta:hover .cta-glow-ring {
+    opacity: 1;
+}
+
+/* ===== ENHANCED GLOW ON ACCENT TEXT ===== */
+.hero-title .accent {
+    text-shadow: 0 0 40px rgba(232, 164, 74, 0.25);
+    animation: gradientShift 4s ease-in-out infinite, glowPulse 3s ease-in-out infinite;
+}
+
+@keyframes glowPulse {
+    0%, 100% { filter: brightness(1) drop-shadow(0 0 0px transparent); }
+    50%      { filter: brightness(1.25) drop-shadow(0 0 8px rgba(232, 164, 74, 0.3)); }
+}
+
+/* ===== ENHANCED SECTION HEADING ===== */
+.section-heading.visible::after {
+    box-shadow: 0 0 20px rgba(232, 164, 74, 0.5), 0 0 40px rgba(196, 111, 211, 0.2);
+}
+
+/* ===== FOOTER GLOW LINE ===== */
+.footer {
+    position: relative;
+    overflow: hidden;
+}
+
+.footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--clr-accent), var(--clr-accent-alt), transparent);
+    box-shadow: 0 0 20px rgba(232, 164, 74, 0.3);
+}
+
+/* ===== ENHANCED CURSOR GLOW ===== */
+.cursor-glow {
+    width: 350px;
+    height: 350px;
+    background: radial-gradient(circle,
+        rgba(232, 164, 74, 0.07) 0%,
+        rgba(196, 111, 211, 0.03) 40%,
+        transparent 70%
+    );
+}
+
+/* ===== TOC SECTION AMBIENT GLOW ===== */
+.toc-section {
+    position: relative;
+}
+
+.toc-section::before {
+    content: '';
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, rgba(232, 164, 74, 0.04) 0%, transparent 70%);
+    pointer-events: none;
+    border-radius: 50%;
+    filter: blur(60px);
+}

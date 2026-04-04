@@ -21,14 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    /* --- Cursor Glow --- */
-    const glow = document.getElementById('cursorGlow');
-    if (glow) {
-        document.addEventListener('mousemove', e => {
-            glow.style.left = e.clientX + 'px';
-            glow.style.top  = e.clientY + 'px';
-        });
-    }
+    /* --- Cursor Glow (handled by shared-enhancements.js) --- */
 
     /* --- Scroll Reveal --- */
     const revealEls = document.querySelectorAll('.reveal');
@@ -59,15 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
         cardObs.observe(galleryCards[0]);
     }
 
-    /* --- Hero Parallax --- */
-    const heroContent = document.querySelector('.page-hero-content');
-    if (heroContent) {
-        window.addEventListener('scroll', () => {
-            const scrolled = window.scrollY;
-            heroContent.style.transform = `translateY(${scrolled * 0.25}px)`;
-            heroContent.style.opacity   = 1 - scrolled / 700;
-        });
-    }
+    /* --- Hero Parallax (handled by shared-enhancements.js) --- */
 
     /* --- Nav background on scroll --- */
     const nav = document.querySelector('.nav');

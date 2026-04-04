@@ -17,14 +17,7 @@
     }
 })();
 
-// ===== Cursor Glow =====
-const cursorGlow = document.getElementById('cursorGlow');
-if (cursorGlow) {
-    document.addEventListener('mousemove', (e) => {
-        cursorGlow.style.left = e.clientX + 'px';
-        cursorGlow.style.top = e.clientY + 'px';
-    });
-}
+// ===== Cursor Glow (handled by shared-enhancements.js) =====
 
 // ===== Scroll Reveal =====
 const revealObserver = new IntersectionObserver((entries) => {
@@ -54,16 +47,7 @@ document.querySelectorAll('.timeline-item').forEach((item, i) => {
     timelineObserver.observe(item);
 });
 
-// ===== Parallax on hero scroll =====
-const pageHero = document.querySelector('.page-hero');
-const heroContent = document.querySelector('.page-hero-content');
-if (pageHero && heroContent) {
-    window.addEventListener('scroll', () => {
-        const scrolled = window.scrollY;
-        heroContent.style.opacity = 1 - scrolled / 500;
-        heroContent.style.transform = 'translateY(' + (scrolled * 0.25) + 'px)';
-    }, { passive: true });
-}
+// ===== Parallax on hero scroll (handled by shared-enhancements.js) =====
 
 // ===== Nav background on scroll =====
 const nav = document.querySelector('.nav');
