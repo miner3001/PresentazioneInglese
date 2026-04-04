@@ -98,3 +98,69 @@ if (banksyImage && banksyPopup) {
         }
     });
 }
+
+// ===== NWA Popup + Media Player =====
+const nwaImage = document.getElementById('nwaImage');
+const nwaPopup = document.getElementById('nwaPopup');
+const nwaClose = document.getElementById('nwaClose');
+const nwaAudio = document.getElementById('nwaAudio');
+const nwaPlayBtn = document.getElementById('nwaPlayBtn');
+const nwaPlayIcon = document.getElementById('nwaPlayIcon');
+const nwaProgress = document.getElementById('nwaProgress');
+const nwaTime = document.getElementById('nwaTime');
+
+function formatTime(sec) {
+    const m = Math.floor(sec / 60);
+    const s = Math.floor(sec % 60);
+    return m + ':' + (s < 10 ? '0' : '') + s;
+}
+
+if (nwaImage && nwaPopup && nwaAudio) {
+    nwaImage.addEventListener('click', () => {
+        nwaPopup.classList.add('active');
+    });
+
+    nwaClose.addEventListener('click', () => {
+        nwaPopup.classList.remove('active');
+        nwaAudio.pause();
+    });
+
+    nwaPopup.addEventListener('click', (e) => {
+        if (e.target === nwaPopup) {
+            nwaPopup.classList.remove('active');
+            nwaAudio.pause();
+        }
+    });
+
+    nwaPlayBtn.addEventListener('click', () => {
+        if (nwaAudio.paused) {
+            nwaAudio.play();
+            nwaPlayIcon.className = 'bi bi-pause-fill';
+        } else {
+            nwaAudio.pause();
+            nwaPlayIcon.className = 'bi bi-play-fill';
+        }
+    });
+
+    nwaAudio.addEventListener('timeupdate', () => {
+        if (nwaAudio.duration) {
+            const pct = (nwaAudio.currentTime / nwaAudio.duration) * 100;
+            nwaProgress.style.width = pct + '%';
+            nwaTime.textContent = formatTime(nwaAudio.currentTime);
+        }
+    });
+
+    nwaAudio.addEventListener('ended', () => {
+        nwaPlayIcon.className = 'bi bi-play-fill';
+        nwaProgress.style.width = '0%';
+        nwaTime.textContent = '0:00';
+    });
+
+    document.querySelector('.player-track').addEventListener('click', (e) => {
+        const rect = e.currentTarget.getBoundingClientRect();
+        const pct = (e.clientX - rect.left) / rect.width;
+        if (nwaAudio.duration) {
+            nwaAudio.currentTime = pct * nwaAudio.duration;
+        }
+    });
+}

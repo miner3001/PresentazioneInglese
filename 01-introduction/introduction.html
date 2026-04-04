@@ -110,12 +110,37 @@
 
         <!-- Image Block 2 -->
         <section class="image-block reveal">
-            <div class="image-placeholder" data-label="Musicians at a protest / concert for a cause">
-                <!-- Replace this div with: <img src="your-image.jpg" alt="Description"> -->
-                <span class="placeholder-icon"><i class="bi bi-music-note-beamed"></i></span>
-                <span class="placeholder-text">Image: Music at a Social Movement / Protest Concert</span>
+            <div class="image-clickable" id="nwaImage">
+                <img src="/img/NWA.jpg" alt="N.W.A — Straight Outta Compton">
+                <span class="image-click-hint"><i class="bi bi-play-circle"></i> Click to listen</span>
             </div>
             <p class="image-caption">From Woodstock to modern benefit concerts, music has always rallied people around a cause.</p>
+
+            <!-- Media Player Popup -->
+            <div class="popup-overlay" id="nwaPopup">
+                <div class="popup-bubble media-bubble">
+                    <button class="popup-close" id="nwaClose"><i class="bi bi-x-lg"></i></button>
+                    <h3>N.W.A &mdash; <em>Straight Outta Compton</em></h3>
+                    <p>
+                        Released in 1988, this track became an anthem of black frustration against police brutality
+                        and systemic racism in America. N.W.A used raw, unfiltered lyrics to expose the realities
+                        of life in Compton, Los Angeles — making hip-hop a powerful vehicle for social commentary.
+                    </p>
+                    <div class="mini-player">
+                        <audio id="nwaAudio" preload="metadata">    
+                            <source src="/audio/straight-outta-compton.mp3" type="audio/mpeg">
+                            <!-- Replace the src above with your actual audio file -->
+                        </audio>
+                        <button class="player-btn" id="nwaPlayBtn">
+                            <i class="bi bi-play-fill" id="nwaPlayIcon"></i>
+                        </button>
+                        <div class="player-track">
+                            <div class="player-progress" id="nwaProgress"></div>
+                        </div>
+                        <span class="player-time" id="nwaTime">0:00</span>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <!-- Scope of the Presentation -->
