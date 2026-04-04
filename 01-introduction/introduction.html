@@ -53,24 +53,6 @@
                 <span class="image-click-hint"><i class="bi bi-zoom-in"></i> Click for details</span>
             </div>
             <p class="image-caption">Art has long served as a visual language of resistance — from murals to street installations.</p>
-
-            <!-- Popup Bubble -->
-            <div class="popup-overlay" id="banksyPopup">
-                <div class="popup-bubble">
-                    <button class="popup-close" id="banksyClose"><i class="bi bi-x-lg"></i></button>
-                    <h3>Banksy — <em>Love is in the Air</em></h3>
-                    <p>
-                        Also known as the <strong>Flower Thrower</strong>, this iconic stencil by the anonymous street artist Banksy
-                        first appeared in 2003 on a wall near the Israeli West Bank barrier in Jerusalem. It depicts a masked
-                        protester in a throwing pose — but instead of a Molotov cocktail, he hurls a bouquet of flowers.
-                    </p>
-                    <p>
-                        The piece is a powerful statement about peaceful resistance: replacing violence with beauty, destruction
-                        with hope. It has become one of the most recognisable works of political street art in the world,
-                        symbolising the idea that art itself can be an act of defiance.
-                    </p>
-                </div>
-            </div>
         </section>
 
         <!-- Key Ideas -->
@@ -115,32 +97,6 @@
                 <span class="image-click-hint"><i class="bi bi-play-circle"></i> Click to listen</span>
             </div>
             <p class="image-caption">From Woodstock to modern benefit concerts, music has always rallied people around a cause.</p>
-
-            <!-- Media Player Popup -->
-            <div class="popup-overlay" id="nwaPopup">
-                <div class="popup-bubble media-bubble">
-                    <button class="popup-close" id="nwaClose"><i class="bi bi-x-lg"></i></button>
-                    <h3>N.W.A &mdash; <em>Straight Outta Compton</em></h3>
-                    <p>
-                        Released in 1988, this track became an anthem of black frustration against police brutality
-                        and systemic racism in America. N.W.A used raw, unfiltered lyrics to expose the realities
-                        of life in Compton, Los Angeles — making hip-hop a powerful vehicle for social commentary.
-                    </p>
-                    <div class="mini-player">
-                        <audio id="nwaAudio" preload="metadata">    
-                            <source src="/audio/straight-outta-compton.mp3" type="audio/mpeg">
-                            <!-- Replace the src above with your actual audio file -->
-                        </audio>
-                        <button class="player-btn" id="nwaPlayBtn">
-                            <i class="bi bi-play-fill" id="nwaPlayIcon"></i>
-                        </button>
-                        <div class="player-track">
-                            <div class="player-progress" id="nwaProgress"></div>
-                        </div>
-                        <span class="player-time" id="nwaTime">0:00</span>
-                    </div>
-                </div>
-            </div>
         </section>
 
         <!-- Scope of the Presentation -->
@@ -161,12 +117,11 @@
 
         <!-- Image Block 3 -->
         <section class="image-block reveal">
-            <div class="image-placeholder" data-label="Video game screenshot — e.g. This War of Mine, Papers Please, or similar">
-                <!-- Replace this div with: <img src="your-image.jpg" alt="Description"> -->
-                <span class="placeholder-icon"><i class="bi bi-joystick"></i></span>
-                <span class="placeholder-text">Image: Video Game Exploring Social Themes</span>
+            <div class="image-clickable" id="rdr2Image">
+                <img src="/img/rdr2.jpg" alt="Red Dead Redemption 2">
+                <span class="image-click-hint"><i class="bi bi-info-circle"></i> Click for details</span>
             </div>
-            <p class="image-caption">Games like <em>This War of Mine</em> and <em>Papers, Please</em> use interactivity to confront players with moral dilemmas.</p>
+            <p class="image-caption">Video games like <em>Red Dead Redemption 2</em> prove that interactive media can be a profound artistic experience.</p>
         </section>
 
         <!-- Closing -->
@@ -197,6 +152,74 @@
     </footer>
 
     <div class="cursor-glow" id="cursorGlow"></div>
+
+    <!-- All Popups (at body level to avoid overlap issues) -->
+    <div class="popup-overlay" id="banksyPopup">
+        <div class="popup-bubble">
+            <button class="popup-close" id="banksyClose"><i class="bi bi-x-lg"></i></button>
+            <h3>Banksy — <em>Love is in the Air</em></h3>
+            <p>
+                Also known as the <strong>Flower Thrower</strong>, this iconic stencil by the anonymous street artist Banksy
+                first appeared in 2003 on a wall near the Israeli West Bank barrier in Jerusalem. It depicts a masked
+                protester in a throwing pose — but instead of a Molotov cocktail, he hurls a bouquet of flowers.
+            </p>
+            <p>
+                The piece is a powerful statement about peaceful resistance: replacing violence with beauty, destruction
+                with hope. It has become one of the most recognisable works of political street art in the world,
+                symbolising the idea that art itself can be an act of defiance.
+            </p>
+        </div>
+    </div>
+
+    <div class="popup-overlay" id="nwaPopup">
+        <div class="popup-bubble media-bubble">
+            <button class="popup-close" id="nwaClose"><i class="bi bi-x-lg"></i></button>
+            <h3>N.W.A &mdash; <em>Straight Outta Compton</em></h3>
+            <p>
+                Released in 1988, this track became an anthem of black frustration against police brutality
+                and systemic racism in America. N.W.A used raw, unfiltered lyrics to expose the realities
+                of life in Compton, Los Angeles — making hip-hop a powerful vehicle for social commentary.
+            </p>
+            <div class="mini-player">
+                <audio id="nwaAudio" preload="metadata">
+                    <source src="/music/StraightOuttaCompton.mp3" type="audio/mpeg">
+                </audio>
+                <button class="player-btn" id="nwaPlayBtn">
+                    <i class="bi bi-play-fill" id="nwaPlayIcon"></i>
+                </button>
+                <div class="player-track">
+                    <div class="player-progress" id="nwaProgress"></div>
+                </div>
+                <span class="player-time" id="nwaTime">0:00</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup-overlay" id="rdr2Popup">
+        <div class="popup-bubble">
+            <button class="popup-close" id="rdr2Close"><i class="bi bi-x-lg"></i></button>
+            <h3>Red Dead Redemption 2 &mdash; <em>Art Through Interactivity</em></h3>
+            <p>
+                Set in 1899, <strong>Red Dead Redemption 2</strong> follows Arthur Morgan, an outlaw in the
+                Van der Linde gang as the era of the Wild West fades away. The story explores themes of
+                <strong>loyalty, morality, and redemption</strong> &mdash; forcing the player to question what it means
+                to be good in a world built on violence.
+            </p>
+            <p>
+                But beyond its narrative, RDR2 is a masterclass in <strong>visual art</strong>: hand-crafted
+                landscapes that rival oil paintings, dynamic lighting that shifts with the weather, and a
+                soundtrack that blends orchestral scores with authentic folk music. Every frame is composed
+                with cinematic care.
+            </p>
+            <p>
+                The game also reflects <strong>social change</strong> by portraying the clash between
+                industrialisation and the natural world, the displacement of Native American communities,
+                and the widening gap between rich and poor &mdash; themes that remain deeply relevant today.
+                It proves that video games are not just entertainment, but a legitimate form of art capable
+                of sparking reflection and empathy.
+            </p>
+        </div>
+    </div>
 
     <script src="introduction.js"></script>
 </body>

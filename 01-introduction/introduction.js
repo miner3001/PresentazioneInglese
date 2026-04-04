@@ -164,3 +164,24 @@ if (nwaImage && nwaPopup && nwaAudio) {
         }
     });
 }
+
+// ===== RDR2 Popup =====
+const rdr2Image = document.getElementById('rdr2Image');
+const rdr2Popup = document.getElementById('rdr2Popup');
+const rdr2Close = document.getElementById('rdr2Close');
+
+if (rdr2Image && rdr2Popup) {
+    rdr2Image.addEventListener('click', () => {
+        rdr2Popup.classList.add('active');
+    });
+
+    rdr2Close.addEventListener('click', () => {
+        rdr2Popup.classList.remove('active');
+    });
+
+    rdr2Popup.addEventListener('click', (e) => {
+        if (e.target === rdr2Popup) {
+            rdr2Popup.classList.remove('active');
+        }
+    });
+}
