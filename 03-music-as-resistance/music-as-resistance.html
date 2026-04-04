@@ -122,12 +122,12 @@
 
         <!-- Image Block 1 -->
         <section class="image-block reveal">
-            <div class="image-clickable" id="dylanImage">
-                <img src="/img/bob-dylan.jpg" alt="Bob Dylan performing">
+            <div class="image-clickable" id="marleyImage">
+                <img src="/img/bob-marley.jpg" alt="Bob Marley performing">
                 <span class="image-click-hint"><i class="bi bi-zoom-in"></i> Click for details</span>
             </div>
-            <p class="image-caption">Bob Dylan's folk songs became the anthems of an entire generation's fight for civil rights and peace.</p>
-        </section>
+            <p class="image-caption">Bob Marley carried messages of unity, resistance, and liberation from Jamaica to every corner of the world.</p>
+        </section>  
 
         <!-- Deep Dive -->
         <section class="text-block reveal">
@@ -223,25 +223,39 @@
     <div class="cursor-glow" id="cursorGlow"></div>
 
     <!-- Popups -->
-    <div class="popup-overlay" id="dylanPopup">
-        <div class="popup-bubble">
-            <button class="popup-close" id="dylanClose"><i class="bi bi-x-lg"></i></button>
-            <h3>Bob Dylan &mdash; <em>The Voice of a Generation</em></h3>
+    <div class="popup-overlay" id="marleyPopup">
+        <div class="popup-bubble media-bubble">
+            <button class="popup-close" id="marleyClose"><i class="bi bi-x-lg"></i></button>
+            <h3>Bob Marley &mdash; <em>The Voice of the Oppressed</em></h3>
             <p>
-                Bob Dylan transformed folk music from campfire singalongs into a weapon of political
-                consciousness. Songs like <em>Blowin' in the Wind</em> (1963) and <em>The Times They
-                Are a-Changin'</em> (1964) gave the Civil Rights and anti-war movements their lyrics.
+                Bob Marley transformed reggae from a Jamaican genre into a global movement. Albums like
+                <em>Exodus</em> (1977) and songs like <em>Get Up, Stand Up</em>, <em>Redemption Song</em>,
+                and <em>One Love</em> carried messages of anti-colonialism, unity, and spiritual liberation
+                to millions around the world.
             </p>
             <p>
-                Dylan proved that a single voice with an acoustic guitar could challenge presidents,
-                inspire millions, and reshape the meaning of popular music forever. He was awarded the
-                Nobel Prize in Literature in 2016 &mdash; the first musician to receive the honour.
+                Marley's music gave a voice to the oppressed across Africa, Latin America, and the Caribbean.
+                His 1978 <em>One Love Peace Concert</em> in Kingston famously brought rival Jamaican political
+                leaders together on stage &mdash; proving music's power to transcend even the deepest divisions.
+                He remains one of the most influential artists in history.
             </p>
+            <div class="mini-player">
+                <audio id="marleyAudio" preload="metadata">
+                    <source src="/music/one love-bob marley lyrics.mp3" type="audio/mpeg">
+                </audio>
+                <button class="player-btn" id="marleyPlayBtn">
+                    <i class="bi bi-play-fill" id="marleyPlayIcon"></i>
+                </button>
+                <div class="player-track" id="marleyTrack">
+                    <div class="player-progress" id="marleyProgress"></div>
+                </div>
+                <span class="player-time" id="marleyTime">0:00</span>
+            </div>
         </div>
     </div>
 
     <div class="popup-overlay" id="nwa2Popup">
-        <div class="popup-bubble">
+        <div class="popup-bubble media-bubble">
             <button class="popup-close" id="nwa2Close"><i class="bi bi-x-lg"></i></button>
             <h3>N.W.A &mdash; <em>Straight Outta Compton</em></h3>
             <p>
@@ -255,7 +269,20 @@
                 receiving an FBI warning letter, the album went double platinum &mdash; proving that
                 audiences craved authenticity over comfort.
             </p>
+            <div class="mini-player">
+                <audio id="nwa2Audio" preload="metadata">
+                    <source src="/music/StraightOuttaCompton.mp3" type="audio/mpeg">
+                </audio>
+                <button class="player-btn" id="nwa2PlayBtn">
+                    <i class="bi bi-play-fill" id="nwa2PlayIcon"></i>
+                </button>
+                <div class="player-track" id="nwa2Track">
+                    <div class="player-progress" id="nwa2Progress"></div>
+                </div>
+                <span class="player-time" id="nwa2Time">0:00</span>
+            </div>
         </div>
+    </div>
     </div>
 
     <script src="music-as-resistance.js"></script>

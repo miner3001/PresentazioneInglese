@@ -102,25 +102,75 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     /* --- Popup Helpers --- */
-    function setupPopup(triggerId, popupId, closeId) {
+    function setupPopup(triggerId, popupId, closeId, audioId) {
         const trigger = document.getElementById(triggerId);
         const popup   = document.getElementById(popupId);
         const close   = document.getElementById(closeId);
+        const audio   = audioId ? document.getElementById(audioId) : null;
         if (!trigger || !popup) return;
 
         trigger.addEventListener('click', () => popup.classList.add('active'));
 
-        if (close) {
-            close.addEventListener('click', () => popup.classList.remove('active'));
+        function closePopup() {
+            popup.classList.remove('active');
+            if (audio) audio.pause();
         }
 
-        popup.addEventListener('click', e => {
-            if (e.target === popup) popup.classList.remove('active');
+        if (close) close.addEventListener('click', closePopup);
+        popup.addEventListener('click', e => { if (e.target === popup) closePopup(); });
+    }
+
+    setupPopup('marleyImage', 'marleyPopup', 'marleyClose', 'marleyAudio');
+    setupPopup('nwaImage2',   'nwa2Popup',   'nwa2Close',   'nwa2Audio');
+
+    /* --- Audio Player Helper --- */
+    function formatTime(sec) {
+        const m = Math.floor(sec / 60);
+        const s = Math.floor(sec % 60);
+        return m + ':' + (s < 10 ? '0' : '') + s;
+    }
+
+    function setupPlayer(audioId, playBtnId, playIconId, progressId, trackId, timeId) {
+        const audio    = document.getElementById(audioId);
+        const playBtn  = document.getElementById(playBtnId);
+        const playIcon = document.getElementById(playIconId);
+        const progress = document.getElementById(progressId);
+        const track    = document.getElementById(trackId);
+        const time     = document.getElementById(timeId);
+        if (!audio || !playBtn) return;
+
+        playBtn.addEventListener('click', () => {
+            if (audio.paused) {
+                audio.play();
+                playIcon.className = 'bi bi-pause-fill';
+            } else {
+                audio.pause();
+                playIcon.className = 'bi bi-play-fill';
+            }
+        });
+
+        audio.addEventListener('timeupdate', () => {
+            if (audio.duration) {
+                progress.style.width = ((audio.currentTime / audio.duration) * 100) + '%';
+                time.textContent = formatTime(audio.currentTime);
+            }
+        });
+
+        audio.addEventListener('ended', () => {
+            playIcon.className = 'bi bi-play-fill';
+            progress.style.width = '0%';
+            time.textContent = '0:00';
+        });
+
+        track.addEventListener('click', e => {
+            const rect = track.getBoundingClientRect();
+            const pct = (e.clientX - rect.left) / rect.width;
+            if (audio.duration) audio.currentTime = pct * audio.duration;
         });
     }
 
-    setupPopup('dylanImage',  'dylanPopup',  'dylanClose');
-    setupPopup('nwaImage2',   'nwa2Popup',   'nwa2Close');
+    setupPlayer('marleyAudio', 'marleyPlayBtn', 'marleyPlayIcon', 'marleyProgress', 'marleyTrack', 'marleyTime');
+    setupPlayer('nwa2Audio',   'nwa2PlayBtn',   'nwa2PlayIcon',   'nwa2Progress',   'nwa2Track',   'nwa2Time');
 
     /* --- Close popups with Escape --- */
     document.addEventListener('keydown', e => {
@@ -128,6 +178,7 @@ document.addEventListener('DOMContentLoaded', () => {
             document.querySelectorAll('.popup-overlay.active').forEach(p => {
                 p.classList.remove('active');
             });
+            document.querySelectorAll('audio').forEach(a => a.pause());
         }
     });
 });
