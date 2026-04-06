@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>05 — Case Studies | Art, Music &amp; Video Games in Social Change</title>
+    <link rel="stylesheet" href="case-studies.css">
+    <link rel="stylesheet" href="../shared-enhancements.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="scroll-progress-bar" id="scrollProgress"></div>
+    <div class="noise-overlay"></div>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <a href="../index.html" class="nav-back">&larr; Back to Contents</a>
+        <span class="nav-section">05 &mdash; Case Studies</span>
+    </nav>
+
+    <!-- Page Hero -->
+    <header class="page-hero">
+        <div class="page-hero-overlay"></div>
+        <canvas id="constellation"></canvas>
+        <div class="aurora">
+            <div class="aurora-band aurora-1"></div>
+            <div class="aurora-band aurora-2"></div>
+            <div class="aurora-band aurora-3"></div>
+        </div>
+        <div class="floating-shapes" id="floatingShapes"></div>
+        <div class="particles" id="particles"></div>
+        <div class="page-hero-content">
+            <span class="chapter-number">05</span>
+            <h1 class="page-title">Case Studies</h1>
+            <p class="page-subtitle">Key moments where art and music directly shaped social outcomes.</p>
+        </div>
+    </header>
+
+    <!-- Content -->
+    <main class="content">
+
+        <!-- Opening -->
+        <section class="text-block reveal">
+            <h2>When Creativity Changed History</h2>
+            <p>
+                Throughout modern history, there are moments where art and music didn't just
+                reflect social change &mdash; they <em>caused</em> it. A song became an anthem that
+                united millions. A mural forced a government to respond. A photograph turned
+                public opinion overnight.
+            </p>
+            <p>
+                These are not abstract influences. These are measurable, documented cases where
+                creative expression was the catalyst that tipped the balance &mdash; transforming
+                protest into policy, outrage into action, silence into solidarity.
+            </p>
+        </section>
+
+        <!-- Case Study 1: Civil Rights Movement -->
+        <section class="text-block reveal">
+            <h2>The Civil Rights Movement</h2>
+            <span class="case-study-period"><i class="bi bi-clock-history"></i> United States, 1950s&ndash;1960s</span>
+            <div class="case-study-card">
+                <div class="case-study-icon"><i class="bi bi-music-note-list"></i></div>
+                <div class="case-study-body">
+                    <p>
+                        The American Civil Rights Movement was inseparable from its soundtrack. Songs like
+                        <em>We Shall Overcome</em>, adapted from a gospel hymn, became the movement's
+                        spiritual backbone &mdash; sung at marches, sit-ins, and jail cells across the South.
+                    </p>
+                    <p>
+                        Nina Simone's <em>Mississippi Goddam</em> (1964) channelled rage after the bombing
+                        of a Birmingham church that killed four young girls. Sam Cooke's <em>A Change Is Gonna Come</em>
+                        gave hope to a generation fighting for basic human dignity. Billie Holiday's
+                        <em>Strange Fruit</em> had already exposed the horror of lynching two decades earlier,
+                        making white audiences confront a reality they preferred to ignore.
+                    </p>
+                    <p>
+                        Meanwhile, photographers like Gordon Parks and Ernest Withers documented every march,
+                        every beating, every act of courage &mdash; images that were published nationwide and
+                        made it impossible for the rest of America to look away.
+                    </p>
+                </div>
+            </div>
+            <div class="case-study-outcome">
+                <span class="outcome-label"><i class="bi bi-check-circle"></i> Outcome</span>
+                <p>
+                    The Civil Rights Act of 1964 and the Voting Rights Act of 1965 were signed into law.
+                    Music and photography were central to building the moral pressure that made legislation
+                    unavoidable.
+                </p>
+            </div>
+        </section>
+
+        <!-- Case Study 2: Anti-Apartheid -->
+        <section class="text-block reveal">
+            <h2>The Anti-Apartheid Movement</h2>
+            <span class="case-study-period"><i class="bi bi-clock-history"></i> South Africa &amp; Global, 1960s&ndash;1994</span>
+            <div class="case-study-card">
+                <div class="case-study-icon"><i class="bi bi-globe-americas"></i></div>
+                <div class="case-study-body">
+                    <p>
+                        The struggle against apartheid in South Africa became a global cultural cause.
+                        Musicians played a pivotal role in turning international opinion against the regime.
+                    </p>
+                    <p>
+                        In 1985, Steven Van Zandt (of Bruce Springsteen's E Street Band) organised
+                        <em>Sun City</em> &mdash; a protest song and album featuring over 50 artists including
+                        Miles Davis, Bob Dylan, and Run-DMC, pledging never to perform at the Sun City resort
+                        in apartheid South Africa. The cultural boycott isolated the regime and made apartheid
+                        a household issue worldwide.
+                    </p>
+                    <p>
+                        Inside South Africa, musicians like Hugh Masekela, Miriam Makeba, and the band
+                        Juluka mixed traditional African sounds with protest lyrics. Makeba's testimony at the
+                        United Nations in 1963 led to South Africa's expulsion from the UN General Assembly.
+                        Her music made the world listen.
+                    </p>
+                </div>
+            </div>
+            <div class="case-study-outcome">
+                <span class="outcome-label"><i class="bi bi-check-circle"></i> Outcome</span>
+                <p>
+                    International cultural and economic sanctions contributed to the dismantling of apartheid.
+                    Nelson Mandela was released in 1990, and the first democratic elections were held in 1994.
+                </p>
+            </div>
+        </section>
+
+        <!-- Case Study 3: Fall of the Berlin Wall -->
+        <section class="text-block reveal">
+            <h2>The Fall of the Berlin Wall</h2>
+            <span class="case-study-period"><i class="bi bi-clock-history"></i> Germany, 1961&ndash;1989</span>
+            <div class="case-study-card">
+                <div class="case-study-icon"><i class="bi bi-bricks"></i></div>
+                <div class="case-study-body">
+                    <p>
+                        The Berlin Wall was not just a physical barrier &mdash; it was a canvas. From the moment
+                        it was erected in 1961, artists on the Western side began covering it with graffiti,
+                        murals, and political statements. The Wall became the world's longest open-air gallery
+                        of dissent.
+                    </p>
+                    <p>
+                        On the Eastern side, underground rock bands like <em>Feeling B</em> and punk scenes
+                        in East Berlin provided spaces of resistance where young people could express
+                        frustration with the regime. Western rock music, smuggled in on cassette tapes
+                        and broadcast by radio, represented freedom itself.
+                    </p>
+                    <p>
+                        David Bowie's 1987 concert near the Wall in West Berlin was deliberately aimed
+                        at the East &mdash; thousands of East Berliners gathered on the other side to listen.
+                        Bruce Springsteen's 1988 concert in East Berlin drew 300,000 people, the largest
+                        concert in East German history, and is widely credited with accelerating the push for freedom.
+                    </p>
+                </div>
+            </div>
+            <div class="case-study-outcome">
+                <span class="outcome-label"><i class="bi bi-check-circle"></i> Outcome</span>
+                <p>
+                    The Berlin Wall fell on 9 November 1989. The murals and music that surrounded it became
+                    symbols of reunification. The East Side Gallery &mdash; a 1.3 km stretch of the Wall
+                    preserved as a memorial &mdash; remains one of the world's most visited art sites.
+                </p>
+            </div>
+        </section>
+
+        <!-- Case Study 4: Arab Spring -->
+        <section class="text-block reveal">
+            <h2>The Arab Spring</h2>
+            <span class="case-study-period"><i class="bi bi-clock-history"></i> North Africa &amp; Middle East, 2010&ndash;2012</span>
+            <div class="case-study-card">
+                <div class="case-study-icon"><i class="bi bi-phone"></i></div>
+                <div class="case-study-body">
+                    <p>
+                        The Arab Spring uprisings demonstrated how art and music could be amplified by
+                        digital technology. In Tunisia, rapper El G&eacute;n&eacute;ral's track <em>Rais Lebled</em>
+                        ("President of the Country") became a viral anthem of protest against President
+                        Ben Ali. He was arrested, but the song had already spread beyond anyone's control.
+                    </p>
+                    <p>
+                        In Egypt, graffiti artists transformed Cairo's streets into a rolling newspaper
+                        of revolution. Ganzeer's iconic mural depicting a tank facing a boy on a bicycle
+                        captured the power imbalance between the people and the military. Street art became
+                        the visual language of the uprising &mdash; updated nightly, documented on social
+                        media, and shared worldwide.
+                    </p>
+                    <p>
+                        In Syria, political cartoonist Ali Ferzat, known for decades of satirical work,
+                        was attacked by regime forces who broke both his hands &mdash; a direct acknowledgement
+                        that his drawings were as dangerous to the regime as any weapon.
+                    </p>
+                </div>
+            </div>
+            <div class="case-study-outcome">
+                <span class="outcome-label"><i class="bi bi-check-circle"></i> Outcome</span>
+                <p>
+                    Governments fell in Tunisia, Egypt, Libya, and Yemen. Art and music, amplified by
+                    social media, proved that creative resistance could mobilise millions in weeks rather
+                    than decades.
+                </p>
+            </div>
+        </section>
+
+        <!-- Case Study 5: Black Lives Matter -->
+        <section class="text-block reveal">
+            <h2>Black Lives Matter</h2>
+            <span class="case-study-period"><i class="bi bi-clock-history"></i> United States &amp; Global, 2013&ndash;present</span>
+            <div class="case-study-card">
+                <div class="case-study-icon"><i class="bi bi-megaphone"></i></div>
+                <div class="case-study-body">
+                    <p>
+                        The Black Lives Matter movement, born from the hashtag activism following the
+                        killing of Trayvon Martin in 2012, became a global force after the murder of
+                        George Floyd in 2020. Art and music were at the forefront.
+                    </p>
+                    <p>
+                        Kendrick Lamar's <em>Alright</em> (2015) became an unofficial anthem of the movement,
+                        chanted at protests across America. Childish Gambino's <em>This Is America</em> (2018)
+                        used shocking visual contrast in its music video to expose the normalisation of gun
+                        violence against Black Americans &mdash; the video amassed over 800 million views.
+                    </p>
+                    <p>
+                        In the summer of 2020, murals of George Floyd appeared in cities across six continents.
+                        Artists transformed boarded-up storefronts into gallery spaces. The words "BLACK LIVES
+                        MATTER" were painted in 35-foot letters on the street leading to the White House &mdash;
+                        visible from space via satellite imagery.
+                    </p>
+                </div>
+            </div>
+            <div class="case-study-outcome">
+                <span class="outcome-label"><i class="bi bi-check-circle"></i> Outcome</span>
+                <p>
+                    The movement led to policing reforms in multiple US cities, the removal of Confederate
+                    monuments, and a global conversation about systemic racism. Art made the movement
+                    visible, memorable, and impossible to dismiss.
+                </p>
+            </div>
+        </section>
+
+        <!-- Key Takeaways -->
+        <section class="text-block reveal">
+            <h2>Patterns of Impact</h2>
+            <div class="key-points">
+                <div class="key-point">
+                    <span class="key-icon"><i class="bi bi-soundwave"></i></span>
+                    <div>
+                        <h3>Music Creates Unity</h3>
+                        <p>In every case, songs became shared rituals &mdash; sung at marches, shared online, played at rallies. Music transforms isolated anger into collective identity.</p>
+                    </div>
+                </div>
+                <div class="key-point">
+                    <span class="key-icon"><i class="bi bi-image"></i></span>
+                    <div>
+                        <h3>Images Define Movements</h3>
+                        <p>A single photograph or mural can become the iconic image of an entire era. Visual art creates the symbols that history remembers.</p>
+                    </div>
+                </div>
+                <div class="key-point">
+                    <span class="key-icon"><i class="bi bi-shield-exclamation"></i></span>
+                    <div>
+                        <h3>Governments Fear Art</h3>
+                        <p>Arrests, censorship, broken hands, demolished studios &mdash; when authorities attack artists, they confirm that art is a genuine threat to power.</p>
+                    </div>
+                </div>
+                <div class="key-point">
+                    <span class="key-icon"><i class="bi bi-arrow-repeat"></i></span>
+                    <div>
+                        <h3>Each Generation Builds on the Last</h3>
+                        <p>Civil rights spirituals gave birth to protest folk, which inspired punk, which fuelled hip-hop, which powered BLM. Creative resistance evolves but never stops.</p>
+                    </div>
+                </div>
+                <div class="key-point">
+                    <span class="key-icon"><i class="bi bi-wifi"></i></span>
+                    <div>
+                        <h3>Technology Amplifies Reach</h3>
+                        <p>From radio to cassette tapes to social media &mdash; each new technology made it harder to silence artists and easier for their work to cross borders.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Closing -->
+        <section class="text-block reveal">
+            <blockquote class="pull-quote">
+                "Art is not a mirror held up to reality but a hammer with which to shape it."
+                <cite>&mdash; Bertolt Brecht</cite>
+            </blockquote>
+        </section>
+
+        <!-- Navigation -->
+        <div class="page-nav reveal">
+            <a href="../04-visual-art-activism/visual-art-activism.html" class="page-nav-link prev">
+                <span class="page-nav-label">&larr; Previous</span>
+                <span class="page-nav-title">04 &mdash; Visual Art &amp; Activism</span>
+            </a>
+            <a href="../06-video-games-art/video-games-art.html" class="page-nav-link next">
+                <span class="page-nav-label">Next &rarr;</span>
+                <span class="page-nav-title">06 &mdash; Video Games as Art</span>
+            </a>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Art, Music &amp; Video Games in Social Change &mdash; Mihnea Poputoaia &amp; Simone Ferrero</p>
+    </footer>
+
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <script src="case-studies.js"></script>
+    <script src="../shared-enhancements.js"></script>
+</body>
+</html>

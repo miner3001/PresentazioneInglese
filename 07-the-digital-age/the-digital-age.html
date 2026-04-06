@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>07 — The Digital Age | Art, Music &amp; Video Games in Social Change</title>
+    <link rel="stylesheet" href="the-digital-age.css">
+    <link rel="stylesheet" href="../shared-enhancements.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="scroll-progress-bar" id="scrollProgress"></div>
+    <div class="noise-overlay"></div>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <a href="../index.html" class="nav-back">&larr; Back to Contents</a>
+        <span class="nav-section">07 &mdash; The Digital Age</span>
+    </nav>
+
+    <!-- Page Hero -->
+    <header class="page-hero">
+        <div class="page-hero-overlay"></div>
+        <canvas id="constellation"></canvas>
+        <div class="aurora">
+            <div class="aurora-band aurora-1"></div>
+            <div class="aurora-band aurora-2"></div>
+            <div class="aurora-band aurora-3"></div>
+        </div>
+        <div class="floating-shapes" id="floatingShapes"></div>
+        <div class="particles" id="particles"></div>
+        <div class="page-hero-content">
+            <span class="chapter-number">07</span>
+            <h1 class="page-title">The Digital Age</h1>
+            <p class="page-subtitle">How social media and streaming amplify creative activism today.</p>
+        </div>
+    </header>
+
+    <!-- Content -->
+    <main class="content">
+
+        <!-- Opening -->
+        <section class="text-block reveal">
+            <h2>A Revolution in Reach</h2>
+            <p>
+                Before the internet, protest art lived on walls, in vinyl grooves, and on hand-printed
+                posters. It was powerful &mdash; but local. A mural in Mexico City couldn&rsquo;t inspire a march in
+                Seoul. A protest song recorded in a Lagos studio might never leave West Africa. The message
+                was strong; the megaphone was small.
+            </p>
+            <p>
+                The digital age changed everything. Today, a single tweet can ignite a global movement in hours.
+                A thirty-second video can reshape public opinion overnight. Streaming platforms carry protest
+                anthems to every corner of the world simultaneously. The barriers between creator and audience
+                have dissolved &mdash; and with them, the ability of any government or institution to fully
+                control the narrative.
+            </p>
+        </section>
+
+        <!-- Gallery: Digital Activism Forms -->
+        <section class="text-block reveal">
+            <h2>How the Digital World Amplifies Activism</h2>
+            <div class="gallery-grid">
+
+                <div class="gallery-card">
+                    <div class="gallery-card-icon"><i class="bi bi-hash"></i></div>
+                    <h3>Hashtag Movements</h3>
+                    <p>
+                        From <em>#BlackLivesMatter</em> to <em>#MeToo</em> and <em>#FridaysForFuture</em>,
+                        hashtags have become rallying cries that organise millions without a single
+                        flyer being printed. They turn individual voices into collective thunder.
+                    </p>
+                </div>
+
+                <div class="gallery-card">
+                    <div class="gallery-card-icon"><i class="bi bi-music-note-list"></i></div>
+                    <h3>Streaming &amp; Music Platforms</h3>
+                    <p>
+                        Spotify, Apple Music, and YouTube let protest music bypass traditional gatekeepers.
+                        Childish Gambino&rsquo;s <em>&ldquo;This Is America&rdquo;</em> reached 100 million
+                        views in days &mdash; a feat impossible in the era of radio censorship.
+                    </p>
+                </div>
+
+                <div class="gallery-card">
+                    <div class="gallery-card-icon"><i class="bi bi-image"></i></div>
+                    <h3>Viral Art &amp; Memes</h3>
+                    <p>
+                        Memes are the political cartoons of the 21st century. From Shepard Fairey&rsquo;s
+                        Obama <em>&ldquo;Hope&rdquo;</em> poster spreading online to protest artwork
+                        flooding Instagram, digital art now moves faster than any gallery exhibition.
+                    </p>
+                </div>
+
+                <div class="gallery-card">
+                    <div class="gallery-card-icon"><i class="bi bi-camera-video"></i></div>
+                    <h3>Citizen Journalism</h3>
+                    <p>
+                        Smartphones turned every bystander into a journalist. The footage of George Floyd,
+                        the videos from the Arab Spring, and livestreamed protests gave the world unfiltered
+                        truth that traditional media could no longer ignore.
+                    </p>
+                </div>
+
+                <div class="gallery-card">
+                    <div class="gallery-card-icon"><i class="bi bi-people"></i></div>
+                    <h3>Online Communities</h3>
+                    <p>
+                        Discord servers, Reddit threads, and Telegram groups let activists coordinate
+                        across borders in real time. Movements that once needed years of organising
+                        can now mobilise in weeks &mdash; or even days.
+                    </p>
+                </div>
+
+                <div class="gallery-card">
+                    <div class="gallery-card-icon"><i class="bi bi-currency-dollar"></i></div>
+                    <h3>Crowdfunding &amp; Digital Solidarity</h3>
+                    <p>
+                        GoFundMe campaigns, Patreon, and cryptocurrency donations allow communities to
+                        fund bail, legal aid, and mutual support directly &mdash; bypassing institutions
+                        entirely and putting resources where they&rsquo;re needed most.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Deep Dive: #BlackLivesMatter -->
+        <section class="text-block reveal">
+            <h2>Case in Focus: #BlackLivesMatter</h2>
+            <p>
+                The hashtag <em>#BlackLivesMatter</em> was created in 2013 by Alicia Garza, Patrisse Cullors,
+                and Opal Tometi after the acquittal of Trayvon Martin&rsquo;s killer. But it was in the summer
+                of 2020, following the murder of George Floyd, that the movement became the largest protest
+                wave in United States history.
+            </p>
+            <p>
+                Social media was the engine. The video of Floyd&rsquo;s death spread across every platform within
+                hours. Artists responded instantly: murals appeared on streets worldwide, musicians released
+                protest tracks, and illustrators flooded Instagram with powerful imagery. The hashtag was used
+                over 47 million times on Twitter in just two weeks.
+            </p>
+            <p>
+                What made this different from earlier civil rights struggles was <em>speed</em> and <em>scale</em>.
+                In the 1960s, news footage of Selma took days to reach living rooms. In 2020, the world
+                watched in real time. Art, music, and video multiplied the movement&rsquo;s emotional impact
+                and made it impossible to look away.
+            </p>
+        </section>
+
+        <!-- Deep Dive: This Is America -->
+        <section class="text-block reveal">
+            <h2>Case in Focus: &ldquo;This Is America&rdquo;</h2>
+            <p>
+                When Childish Gambino (Donald Glover) released the music video for <em>&ldquo;This Is
+                America&rdquo;</em> in May 2018, it became a cultural earthquake. The video juxtaposes
+                joyful dancing with sudden, shocking gun violence &mdash; a visual metaphor for how
+                entertainment distracts from systemic brutality.
+            </p>
+            <p>
+                Within 24 hours, millions were dissecting every frame on Twitter, YouTube, and Reddit.
+                Artists created response pieces. Teachers used it in classrooms. The video won four Grammy
+                Awards and became one of the most analysed pieces of art in the digital era.
+            </p>
+            <p>
+                <em>&ldquo;This Is America&rdquo;</em> proved that in the streaming age, a single music video
+                can function as a protest poster, a documentary, and a call to action &mdash; all at once,
+                reaching audiences that traditional activism could never touch.
+            </p>
+        </section>
+
+        <!-- Deep Dive: Arab Spring -->
+        <section class="text-block reveal">
+            <h2>Case in Focus: The Arab Spring &amp; Digital Revolt</h2>
+            <p>
+                Beginning in late 2010, a wave of pro-democracy uprisings swept across the Middle East and
+                North Africa. Tunisia, Egypt, Libya, Syria, and beyond &mdash; millions demanded freedom,
+                and social media was their organising tool.
+            </p>
+            <p>
+                In Egypt, Facebook groups coordinated the massive protests in Tahrir Square. Activists
+                shared real-time updates on Twitter, circumventing state-controlled media. When the
+                government shut down the internet entirely, the act itself became global news &mdash;
+                drawing even more international attention and support.
+            </p>
+            <p>
+                Artists played a crucial role: graffiti exploded across Cairo&rsquo;s walls, and protest music
+                went viral on YouTube. The rapper El G&eacute;n&eacute;ral&rsquo;s track <em>&ldquo;Ra&iuml;s
+                Lebled&rdquo;</em> (&ldquo;President of the Country&rdquo;) became an unofficial anthem of the
+                Tunisian revolution &mdash; shared millions of times despite government censorship. The digital
+                age made it possible for art to outrun authoritarianism.
+            </p>
+        </section>
+
+        <!-- Why Digital Activism Works -->
+        <section class="text-block reveal">
+            <h2>Why Does Digital Activism Work?</h2>
+            <div class="key-points">
+                <div class="key-point">
+                    <span class="key-icon"><i class="bi bi-lightning-charge"></i></span>
+                    <div>
+                        <h3>Speed Defeats Censorship</h3>
+                        <p>Content goes viral before authorities can react. A protest song or artwork can circle the globe in minutes, making suppression nearly impossible.</p>
+                    </div>
+                </div>
+                <div class="key-point">
+                    <span class="key-icon"><i class="bi bi-globe-americas"></i></span>
+                    <div>
+                        <h3>Borderless Solidarity</h3>
+                        <p>A protest in Hong Kong inspires a vigil in London. A hashtag born in the US unites activists in Brazil, Nigeria, and South Korea. Geography no longer limits movements.</p>
+                    </div>
+                </div>
+                <div class="key-point">
+                    <span class="key-icon"><i class="bi bi-megaphone"></i></span>
+                    <div>
+                        <h3>Everyone Has a Platform</h3>
+                        <p>You no longer need a record label, gallery, or publisher to share your art. A phone and an internet connection are enough to reach millions.</p>
+                    </div>
+                </div>
+                <div class="key-point">
+                    <span class="key-icon"><i class="bi bi-eye"></i></span>
+                    <div>
+                        <h3>Visibility Creates Accountability</h3>
+                        <p>When injustice is filmed and shared, it becomes undeniable. Digital documentation forces institutions to respond to what they can no longer hide.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Closing -->
+        <section class="text-block reveal">
+            <blockquote class="pull-quote">
+                "In the digital age, the pen is mightier than ever &mdash; because the pen is now a phone, and the page is the entire world."
+                <cite>&mdash; on creative activism in the internet era</cite>
+            </blockquote>
+        </section>
+
+        <!-- Navigation -->
+        <div class="page-nav reveal">
+            <a href="../06-video-games-art/video-games-art.html" class="page-nav-link prev">
+                <span class="page-nav-label">&larr; Previous</span>
+                <span class="page-nav-title">06 &mdash; Video Games as Art</span>
+            </a>
+            <a href="../08-conclusion/conclusion.html" class="page-nav-link next">
+                <span class="page-nav-label">Next &rarr;</span>
+                <span class="page-nav-title">08 &mdash; Conclusion</span>
+            </a>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Art, Music &amp; Video Games in Social Change &mdash; Mihnea Poputoaia &amp; Simone Ferrero</p>
+    </footer>
+
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <script src="the-digital-age.js"></script>
+    <script src="../shared-enhancements.js"></script>
+</body>
+</html>

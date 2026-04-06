@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>06 — Video Games as Art | Art, Music &amp; Video Games in Social Change</title>
+    <link rel="stylesheet" href="video-games-art.css">
+    <link rel="stylesheet" href="../shared-enhancements.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="scroll-progress-bar" id="scrollProgress"></div>
+    <div class="noise-overlay"></div>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <a href="../index.html" class="nav-back">&larr; Back to Contents</a>
+        <span class="nav-section">06 &mdash; Video Games as Art</span>
+    </nav>
+
+    <!-- Page Hero -->
+    <header class="page-hero">
+        <div class="page-hero-overlay"></div>
+        <canvas id="constellation"></canvas>
+        <div class="aurora">
+            <div class="aurora-band aurora-1"></div>
+            <div class="aurora-band aurora-2"></div>
+            <div class="aurora-band aurora-3"></div>
+        </div>
+        <div class="floating-shapes" id="floatingShapes"></div>
+        <div class="particles" id="particles"></div>
+        <div class="page-hero-content">
+            <span class="chapter-number">06</span>
+            <h1 class="page-title">Video Games as Art</h1>
+            <p class="page-subtitle">How interactive storytelling and game design tackle social issues and spark empathy.</p>
+        </div>
+    </header>
+
+    <!-- Content -->
+    <main class="content">
+
+        <!-- Opening -->
+        <section class="text-block reveal">
+            <h2>The Newest Art Form</h2>
+            <p>
+                For decades, video games were dismissed as toys &mdash; mindless entertainment for children.
+                But in the 21st century, that perception has shattered. Games now tell stories that rival
+                literature, create worlds as breathtaking as any painting, and force players to confront
+                moral dilemmas that linger long after the screen goes dark.
+            </p>
+            <p>
+                What makes games unique as an art form is <em>interactivity</em>. You don't just watch
+                injustice unfold &mdash; you participate in it. You don't just hear about moral choices
+                &mdash; you make them. This transforms passive empathy into lived experience, and that
+                is something no other medium can do.
+            </p>
+        </section>
+
+        <!-- Gallery: Types of Games -->
+        <section class="text-block reveal">
+            <h2>Games That Challenge &amp; Transform</h2>
+            <div class="gallery-grid">
+
+                <div class="gallery-card">
+                    <div class="gallery-card-icon"><i class="bi bi-book"></i></div>
+                    <h3>Narrative-Driven Epics</h3>
+                    <p>
+                        Games like <em>The Last of Us</em> and <em>Red Dead Redemption 2</em> deliver
+                        cinematic stories exploring morality, loss, and survival &mdash; making players
+                        emotionally invest in characters who face impossible choices.
+                    </p>
+                </div>
+
+                <div class="gallery-card">
+                    <div class="gallery-card-icon"><i class="bi bi-chat-heart"></i></div>
+                    <h3>Empathy Simulators</h3>
+                    <p>
+                        <em>Papers, Please</em> puts you in the shoes of a border officer in a totalitarian
+                        state. <em>This War of Mine</em> makes you a civilian in a besieged city. These
+                        games force you to feel what it&rsquo;s like to live under systems of oppression.
+                    </p>
+                </div>
+
+                <div class="gallery-card">
+                    <div class="gallery-card-icon"><i class="bi bi-palette"></i></div>
+                    <h3>Visual Masterpieces</h3>
+                    <p>
+                        <em>Journey</em>, <em>Gris</em>, and <em>Ori and the Blind Forest</em> prove that
+                        games can be breathtaking visual art &mdash; using colour, light, and composition
+                        to evoke emotions without a single word of dialogue.
+                    </p>
+                </div>
+
+                <div class="gallery-card">
+                    <div class="gallery-card-icon"><i class="bi bi-flag"></i></div>
+                    <h3>Political Commentary</h3>
+                    <p>
+                        <em>BioShock</em> deconstructs Ayn Rand&rsquo;s objectivism. <em>Spec Ops: The Line</em>
+                        turns a military shooter into an anti-war statement. These games weaponise the
+                        player&rsquo;s own actions to deliver their message.
+                    </p>
+                </div>
+
+                <div class="gallery-card">
+                    <div class="gallery-card-icon"><i class="bi bi-globe2"></i></div>
+                    <h3>Cultural Exploration</h3>
+                    <p>
+                        <em>Never Alone (Kisima Ingitchuna)</em> shares I&ntilde;upiaq folklore. <em>Okami</em>
+                        brings Japanese mythology to life. Games can preserve and celebrate cultures that
+                        mainstream media ignores.
+                    </p>
+                </div>
+
+                <div class="gallery-card">
+                    <div class="gallery-card-icon"><i class="bi bi-heart-pulse"></i></div>
+                    <h3>Mental Health &amp; Identity</h3>
+                    <p>
+                        <em>Celeste</em> tackles anxiety and depression. <em>Hellblade: Senua&rsquo;s Sacrifice</em>
+                        portrays psychosis with clinical accuracy. These games destigmatise mental illness
+                        by making the player <em>feel</em> it from the inside.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Image Block: RDR2 -->
+        <section class="image-block reveal">
+            <div class="image-clickable" id="rdr2Image">
+                <img src="/img/rdr2.jpg" alt="Red Dead Redemption 2">
+                <span class="image-click-hint"><i class="bi bi-zoom-in"></i> Click for details</span>
+            </div>
+            <p class="image-caption"><em>Red Dead Redemption 2</em> &mdash; a world so meticulously crafted that every frame could hang in a gallery.</p>
+        </section>
+
+        <!-- Deep Dive: RDR2 -->
+        <section class="text-block reveal">
+            <h2>Case in Focus: Red Dead Redemption 2</h2>
+            <p>
+                Rockstar Games&rsquo; 2018 masterpiece is arguably the most compelling argument that video
+                games are art. Set in 1899, <em>Red Dead Redemption 2</em> follows Arthur Morgan, an outlaw
+                grappling with loyalty, morality, and the death of the American frontier.
+            </p>
+            <p>
+                The game&rsquo;s world is staggering in its detail: dynamic weather systems that paint the sky
+                in watercolour sunsets, forests where every tree sways independently, wildlife that behaves
+                with documentary realism. But the artistry goes deeper &mdash; the game explores the
+                displacement of Native American communities, the brutality of industrialisation, and the
+                widening gap between rich and poor during the Gilded Age.
+            </p>
+            <p>
+                Player choices carry moral weight. Help a stranger or rob them. Show mercy or seek revenge.
+                The game tracks your honour invisibly, and the story&rsquo;s ending changes based on who you
+                chose to be &mdash; a mechanic that forces genuine self-reflection in a way that passive
+                media never can.
+            </p>
+        </section>
+
+        <!-- Deep Dive: Papers, Please -->
+        <section class="text-block reveal">
+            <h2>Case in Focus: Papers, Please</h2>
+            <p>
+                Created by solo developer Lucas Pope in 2013, <em>Papers, Please</em> is set in the fictional
+                communist state of Arstotzka. You play as a border checkpoint inspector, checking passports
+                and deciding who enters the country. It sounds mundane &mdash; and that&rsquo;s precisely the point.
+            </p>
+            <p>
+                The game traps you in an impossible system: your family is starving, your pay depends on
+                processing people quickly, and the rules change daily. A woman begs you to let her through
+                to escape her abusive husband &mdash; but her papers are wrong. A father&rsquo;s passport has
+                expired by one day. Do you follow the rules, or follow your conscience?
+            </p>
+            <p>
+                <em>Papers, Please</em> doesn&rsquo;t lecture about authoritarianism &mdash; it makes you complicit
+                in it. By the end, you understand how ordinary people become instruments of oppression, not
+                through malice, but through the slow erosion of choice. No film or book has ever made that
+                point so viscerally.
+            </p>
+        </section>
+
+        <!-- Deep Dive: This War of Mine -->
+        <section class="text-block reveal">
+            <h2>Case in Focus: This War of Mine</h2>
+            <p>
+                While most war games cast you as a soldier, <em>This War of Mine</em> (2014) puts you in
+                control of a group of civilians trapped in a besieged city &mdash; inspired by the real
+                Siege of Sarajevo (1992&ndash;1996).
+            </p>
+            <p>
+                You scavenge for food, medicine, and materials. You decide whether to steal from an elderly
+                couple, trade with dangerous strangers, or sacrifice one person&rsquo;s safety for the group&rsquo;s
+                survival. Characters become depressed, fall ill, and can die &mdash; or lose the will to go on.
+            </p>
+            <p>
+                The game was so impactful that in 2020 the Polish government added it to its official
+                recommended reading list for schools &mdash; the first time a video game was given the same
+                cultural status as literature. It proved that games can educate, memorialise, and build
+                empathy at a level that traditional media struggles to reach.
+            </p>
+        </section>
+
+        <!-- Why Games Work -->
+        <section class="text-block reveal">
+            <h2>Why Do Video Games Work as Art?</h2>
+            <div class="key-points">
+                <div class="key-point">
+                    <span class="key-icon"><i class="bi bi-joystick"></i></span>
+                    <div>
+                        <h3>Interactivity Creates Responsibility</h3>
+                        <p>When <em>you</em> pull the trigger, make the choice, or look away, the emotional weight is personal. You can&rsquo;t blame the director &mdash; you did it.</p>
+                    </div>
+                </div>
+                <div class="key-point">
+                    <span class="key-icon"><i class="bi bi-hourglass-split"></i></span>
+                    <div>
+                        <h3>Time Creates Depth</h3>
+                        <p>A game can take 30&ndash;100 hours to complete. That sustained engagement builds emotional bonds with characters and worlds that a two-hour film cannot match.</p>
+                    </div>
+                </div>
+                <div class="key-point">
+                    <span class="key-icon"><i class="bi bi-person-arms-up"></i></span>
+                    <div>
+                        <h3>Perspective Shifts Identity</h3>
+                        <p>Playing as a refugee, a soldier, a prisoner, or a dying man forces you to inhabit a life radically different from your own &mdash; and that builds empathy at a neurological level.</p>
+                    </div>
+                </div>
+                <div class="key-point">
+                    <span class="key-icon"><i class="bi bi-music-note-beamed"></i></span>
+                    <div>
+                        <h3>Games Combine Every Art Form</h3>
+                        <p>Music, visual art, writing, architecture, cinematography, and performance &mdash; games synthesise all of these into a single, unified experience.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Closing -->
+        <section class="text-block reveal">
+            <blockquote class="pull-quote">
+                "Video games are the only form of art that lets you walk in another person&rsquo;s shoes &mdash; and then asks you to live with the footprints you leave."
+                <cite>&mdash; on the power of interactive storytelling</cite>
+            </blockquote>
+        </section>
+
+        <!-- Navigation -->
+        <div class="page-nav reveal">
+            <a href="../05-case-studies/case-studies.html" class="page-nav-link prev">
+                <span class="page-nav-label">&larr; Previous</span>
+                <span class="page-nav-title">05 &mdash; Case Studies</span>
+            </a>
+            <a href="../07-the-digital-age/the-digital-age.html" class="page-nav-link next">
+                <span class="page-nav-label">Next &rarr;</span>
+                <span class="page-nav-title">07 &mdash; The Digital Age</span>
+            </a>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Art, Music &amp; Video Games in Social Change &mdash; Mihnea Poputoaia &amp; Simone Ferrero</p>
+    </footer>
+
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <!-- Popups -->
+    <div class="popup-overlay" id="rdr2Popup">
+        <div class="popup-bubble">
+            <button class="popup-close" id="rdr2Close"><i class="bi bi-x-lg"></i></button>
+            <h3>Red Dead Redemption 2 &mdash; <em>Art Through Interactivity</em></h3>
+            <p>
+                Developed by Rockstar Games and released in 2018, <em>Red Dead Redemption 2</em> took over
+                eight years and an estimated 2,000 people to create. The result is one of the most detailed
+                open worlds ever built &mdash; a living, breathing recreation of America at the turn of the
+                20th century.
+            </p>
+            <p>
+                The game&rsquo;s protagonist, Arthur Morgan, is widely regarded as one of the greatest characters
+                in gaming history. His arc &mdash; from loyal outlaw to a man questioning everything he believed
+                in &mdash; is a meditation on redemption, legacy, and what it means to leave the world better
+                than you found it.
+            </p>
+            <p>
+                Beyond storytelling, RDR2&rsquo;s visual design is extraordinary: hand-painted skyboxes, volumetric
+                lighting, and over 200 species of animals behaving with ecological accuracy. It blurs the line
+                between game and painting, proving that interactive media can achieve the same emotional resonance
+                as any traditional art form.
+            </p>
+        </div>
+    </div>
+
+    <script src="video-games-art.js"></script>
+    <script src="../shared-enhancements.js"></script>
+</body>
+</html>
