@@ -49,231 +49,231 @@
 3. **Art as call to action** — Posters, folk songs, and street art mobilise movements
 4. **Art as universal language** — Transcends borders
 
-**Popup importanti:**
-- **Guernica (1937):** 26 aprile 1937, aerei nazisti bombardano la città basca di Guernica. Picasso dipinge il quadro in poco più di un mese. Monocromo: corpi smembrati, cavallo urlante, toro, madre con bambino morto. Diventa simbolo universale anti-guerra
-- **Diego Rivera:** Dopo la Rivoluzione Messicana (1910-1920), il governo commissionò murales per educare una popolazione in gran parte analfabeta. Rivera metteva le persone comuni al centro della storia
+**Important popups:**
+- **Guernica (1937):** April 26, 1937 — Nazi German warplanes bombed the Basque town of Guernica. Picasso painted it in just over a month. Monochrome: dismembered bodies, screaming horse, bull, mother holding dead child. Became a universal anti-war symbol
+- **Diego Rivera:** After the Mexican Revolution (1910–1920), the government commissioned murals to educate a largely illiterate population. Rivera placed ordinary people at the centre of history
 
 ---
 
 ## 03 — Music as Resistance
 
-**Concetto chiave:** La musica è un grido di battaglia, una forma di protesta, un modo per dire la verità al potere quando gli altri canali sono silenziati.
+**Key concept:** Music is a rallying cry, a form of protest, a way to speak truth to power when other channels are silenced.
 
-**Generi da ricordare:**
+**Genres to remember:**
 
-| Genere | Periodo | Artisti chiave | Dettagli |
+| Genre | Period | Key Artists | Details |
 |---|---|---|---|
-| **Jazz & Blues** | 1920s-1950s | Billie Holiday | *Strange Fruit* (1939) — denuncia della violenza razziale e dei linciaggi |
-| **Folk & Protest Songs** | 1960s | Bob Dylan, Joan Baez, Pete Seeger, Woody Guthrie | *Blowin' in the Wind*, *We Shall Overcome* — Diritti civili e anti-guerra |
-| **Punk Rock** | 1970s-1980s | Sex Pistols, The Clash, Dead Kennedys | Rifiuto DIY del consumismo, disuguaglianza di classe, autorità governativa |
-| **Hip-Hop** | 1980s-oggi | Grandmaster Flash, Kendrick Lamar, N.W.A | *The Message*, *Alright* — disuguaglianza, brutalità poliziesca, razzismo sistemico |
-| **Reggae** | 1970s | Bob Marley | *Get Up, Stand Up*, anti-colonialismo e unità. Dal Jamaica al mondo intero |
-| **Soul & R&B** | 1960s-1970s | Nina Simone, Marvin Gaye, Sam Cooke | *Mississippi Goddam*, *What's Going On*, *A Change Is Gonna Come* |
+| **Jazz & Blues** | 1920s–1950s | Billie Holiday | *Strange Fruit* (1939) — exposed racial violence and lynching |
+| **Folk & Protest Songs** | 1960s | Bob Dylan, Joan Baez, Pete Seeger, Woody Guthrie | *Blowin' in the Wind*, *We Shall Overcome* — Civil Rights and anti-war |
+| **Punk Rock** | 1970s–1980s | Sex Pistols, The Clash, Dead Kennedys | DIY rejection of consumerism, class inequality, government authority |
+| **Hip-Hop** | 1980s–present | Grandmaster Flash, Kendrick Lamar, N.W.A | *The Message*, *Alright* — inequality, police brutality, systemic racism |
+| **Reggae** | 1970s | Bob Marley | *Get Up, Stand Up*, anti-colonialism and unity. From Jamaica to the world |
+| **Soul & R&B** | 1960s–1970s | Nina Simone, Marvin Gaye, Sam Cooke | *Mississippi Goddam*, *What's Going On*, *A Change Is Gonna Come* |
 
 **Case in Focus — N.W.A:**
-- 1988, cinque ragazzi da Compton, Los Angeles
-- *Straight Outta Compton* — rifiuto crudo della brutalità poliziesca
-- *Fuck tha Police* — l'FBI mandò una lettera di avvertimento alla loro etichetta
-- Le radio si rifiutavano di trasmetterli, ma più venivano censurati più il messaggio si diffondeva
+- 1988, five young men from Compton, Los Angeles
+- *Straight Outta Compton* — raw, unfiltered response to police brutality
+- *Fuck tha Police* — the FBI sent a warning letter to their record label
+- Radio stations refused to play them, but the harder they were censored, the louder the message became
 
-**4 motivi per cui la musica funziona:**
-1. **Si diffonde più velocemente delle idee** — Una melodia orecchiabile supera confini, lingue e livelli di alfabetizzazione
-2. **Colpisce prima le emozioni** — Bypassa l'argomentazione razionale, vai dritto alla pancia
-3. **Crea solidarietà** — Cantare insieme trasforma estranei in una forza collettiva
-4. **Resiste alla censura** — Puoi bruciare un libro, ma non puoi disimparare una canzone
+**4 reasons why music works:**
+1. **It spreads faster than ideas** — A catchy melody crosses borders, languages, and literacy levels
+2. **It hits emotions first** — Bypasses rational argument and goes straight to the gut
+3. **It creates solidarity** — Singing together transforms strangers into a collective force
+4. **It resists censorship** — You can burn a book, but you can't unlearn a song
 
-**Citazione:** *"One good thing about music, when it hits you, you feel no pain."* — Bob Marley
+**Quote:** *"One good thing about music, when it hits you, you feel no pain."* — Bob Marley
 
-**Popup importanti:**
-- **Bob Marley:** Ha trasformato il reggae in un movimento globale. *Exodus* (1977). Concerto One Love Peace (1978) a Kingston — ha portato i leader politici rivali giamaicani sullo stesso palco
-- **N.W.A:** L'FBI mandò una lettera di avvertimento. Banditi dalla radio. L'album andò doppio platino — il pubblico voleva autenticità, non comfort
+**Important popups:**
+- **Bob Marley:** Transformed reggae into a global movement. *Exodus* (1977). One Love Peace Concert (1978) in Kingston — brought rival Jamaican political leaders together on stage
+- **N.W.A:** The FBI sent a warning letter. Banned from radio. The album went double platinum — the audience wanted authenticity, not comfort
 
 ---
 
 ## 04 — Visual Art & Activism
 
-**Concetto chiave:** L'arte visiva non ha bisogno di tempo per dispiegarsi — ti colpisce in un istante.
+**Key concept:** Visual art doesn't need time to unfold — it hits you in an instant.
 
-**6 forme di resistenza visiva:**
-1. **Street art & graffiti** — Dalla metro di NY negli anni '70 a Banksy. Reclama lo spazio pubblico
-2. **Poster politici** — Rivoluzione bolscevica, Maggio '68 a Parigi, poster *Hope* di Shepard Fairey per Obama
-3. **Installazioni & performance** — Ai Weiwei *Remembering*: 9.000 zaini su una facciata per commemorare gli studenti morti nel terremoto del Sichuan
-4. **Fotografia** — *Napalm Girl* di Nick Ut, *Migrant Mother* di Dorothea Lange
-5. **Propaganda e contro-propaganda** — Costruttivismo sovietico, Guerrilla Girls
-6. **Satira & caricatura** — Vignette politiche che usano l'ironia come arma
+**6 forms of visual resistance:**
+1. **Street art & graffiti** — From 1970s New York subways to Banksy. Reclaims public space
+2. **Political posters** — Bolshevik revolution, May '68 in Paris, Shepard Fairey's *Hope* poster for Obama
+3. **Installations & performance** — Ai Weiwei's *Remembering*: 9,000 backpacks on a building facade to commemorate students killed in the Sichuan earthquake
+4. **Photography** — Nick Ut's *Napalm Girl*, Dorothea Lange's *Migrant Mother*
+5. **Propaganda & counter-propaganda** — Soviet constructivism, Guerrilla Girls
+6. **Satire & caricature** — Political cartoons using humour as a blade
 
 **Case in Focus — Banksy:**
-- Anonimo, attivo dagli anni '90, da Bristol
-- Opere su guerra (*Bomb Hugger*), consumismo (*Napalm*), sorveglianza (*One Nation Under CCTV*), crisi dei rifugiati (murale di Steve Jobs nel campo di Calais, dipinto come migrante)
-- **Girl with Balloon (2002):** Ragazza che si allunga verso un palloncino a cuore rosso. Simbolo di innocenza perduta. Nel 2018 si auto-distrusse dal trituratore nascosto nella cornice dopo essere stato venduto per £1.04 milioni da Sotheby's. Rivenduto come *Love is in the Bin* per £18.6 milioni nel 2021
+- Anonymous, active since the 1990s, from Bristol
+- Works on war (*Bomb Hugger*), consumerism (*Napalm*), surveillance (*One Nation Under CCTV*), refugee crisis (Steve Jobs mural in the Calais camp, depicted as a migrant)
+- **Girl with Balloon (2002):** Young girl reaching for a red heart-shaped balloon. Symbol of lost innocence. In 2018 it self-destructed through a hidden shredder in the frame after selling for £1.04 million at Sotheby's. Resold as *Love is in the Bin* for £18.6 million in 2021
 
 **Case in Focus — Ai Weiwei:**
-- Artista e dissidente cinese
-- *Remembering* (2009): 9.000 zaini per i bambini morti nel terremoto del Sichuan 2008 — morti attribuite a costruzioni governative scadenti
-- Il governo cinese demolì il suo studio a Shanghai, lo arrestò per 81 giorni, gli confiscò il passaporto per 4 anni
-- *Sunflower Seeds* (2010): 100 milioni di semi di girasole di porcellana dipinti a mano alla Tate Modern
-- *Dropping a Han Dynasty Urn* (1995): distrusse un'urna di 2.000 anni per criticare la cieca reverenza all'autorità
+- Chinese artist and dissident
+- *Remembering* (2009): 9,000 backpacks for children killed in the 2008 Sichuan earthquake — deaths blamed on shoddy government construction
+- Chinese government demolished his Shanghai studio, arrested him for 81 days, confiscated his passport for 4 years
+- *Sunflower Seeds* (2010): 100 million hand-painted porcelain sunflower seeds at the Tate Modern
+- *Dropping a Han Dynasty Urn* (1995): destroyed a 2,000-year-old urn to critique blind reverence for authority
 
-**4 motivi per cui l'arte visiva funziona come attivismo:**
-1. **Impatto istantaneo** — Un'immagine viene elaborata in millisecondi
-2. **Reclama lo spazio pubblico** — Non serve il biglietto per una galleria
-3. **Diventa virale** — Nell'era dei social media, un murale raggiunge milioni in ore
-4. **Trascende le lingue** — Non serve traduzione
+**4 reasons why visual art works as activism:**
+1. **Instant impact** — An image is processed in milliseconds
+2. **It claims public space** — No gallery ticket needed
+3. **It goes viral** — In the age of social media, a mural reaches millions in hours
+4. **It transcends language** — No translation needed
 
 ---
 
 ## 05 — Case Studies
 
-**Concetto chiave:** Ci sono momenti in cui l'arte non ha solo riflesso il cambiamento sociale — lo ha causato.
+**Key concept:** There are moments when art didn't just reflect social change — it caused it.
 
-### 1) Il Movimento per i Diritti Civili (USA, 1950s-1960s)
-- *We Shall Overcome* — colonna sonora spirituale del movimento
-- **Nina Simone** — *Mississippi Goddam* (1964) dopo il bombardamento di una chiesa a Birmingham che uccise 4 ragazze
+### 1) The Civil Rights Movement (USA, 1950s–1960s)
+- *We Shall Overcome* — spiritual backbone of the movement
+- **Nina Simone** — *Mississippi Goddam* (1964) after the bombing of a Birmingham church that killed 4 young girls
 - **Sam Cooke** — *A Change Is Gonna Come*
-- **Billie Holiday** — *Strange Fruit* denunciò l'orrore dei linciaggi
-- Fotografi come **Gordon Parks** e **Ernest Withers** documentarono tutto
-- **Risultato:** Civil Rights Act (1964) e Voting Rights Act (1965)
+- **Billie Holiday** — *Strange Fruit* exposed the horror of lynching
+- Photographers like **Gordon Parks** and **Ernest Withers** documented everything
+- **Outcome:** Civil Rights Act (1964) and Voting Rights Act (1965)
 
-### 2) Il Movimento Anti-Apartheid (Sudafrica, 1960s-1994)
-- **Steven Van Zandt** organizzò *Sun City* (1985) — canzone con 50+ artisti (Miles Davis, Bob Dylan, Run-DMC) che rifiutavano di suonare al resort di Sun City nel Sudafrica dell'apartheid
-- **Hugh Masekela**, **Miriam Makeba**, **Juluka** — musica tradizionale africana + testi di protesta
-- Makeba testimoniò alle Nazioni Unite nel 1963 → espulsione del Sudafrica dall'Assemblea Generale ONU
-- **Risultato:** Sanzioni internazionali, Mandela liberato nel 1990, prime elezioni democratiche nel 1994
+### 2) The Anti-Apartheid Movement (South Africa, 1960s–1994)
+- **Steven Van Zandt** organised *Sun City* (1985) — protest song with 50+ artists (Miles Davis, Bob Dylan, Run-DMC) pledging never to perform at the Sun City resort in apartheid South Africa
+- **Hugh Masekela**, **Miriam Makeba**, **Juluka** — traditional African music + protest lyrics
+- Makeba testified at the United Nations in 1963 → South Africa expelled from the UN General Assembly
+- **Outcome:** International sanctions, Mandela released in 1990, first democratic elections in 1994
 
-### 3) La Caduta del Muro di Berlino (1961-1989)
-- Il Muro divenne la galleria d'arte a cielo aperto più lunga del mondo
-- Band underground nella Berlino Est: **Feeling B**, scene punk
-- Musica rock occidentale contrabbandèta su cassette e trasmessa via radio = simbolo di libertà
-- **David Bowie** (1987): concerto vicino al Muro, diretto verso Est — migliaia di berlinesi dell'Est ascoltavano dall'altra parte
-- **Bruce Springsteen** (1988): 300.000 persone alla Berlino Est — il più grande concerto nella storia della DDR — accelerò la spinta per la libertà
-- **Risultato:** Muro caduto il 9 novembre 1989. East Side Gallery: 1.3 km di Muro conservato come memoriale
+### 3) The Fall of the Berlin Wall (1961–1989)
+- The Wall became the world's longest open-air art gallery
+- Underground bands in East Berlin: **Feeling B**, punk scenes
+- Western rock music smuggled in on cassette tapes and broadcast by radio = symbol of freedom
+- **David Bowie** (1987): concert near the Wall, aimed at the East — thousands of East Berliners listened from the other side
+- **Bruce Springsteen** (1988): 300,000 people in East Berlin — the largest concert in East German history — credited with accelerating the push for freedom
+- **Outcome:** Wall fell on 9 November 1989. East Side Gallery: 1.3 km of Wall preserved as a memorial
 
-### 4) La Primavera Araba (2010-2012)
-- Tunisia: rapper **El Général** — *Raïs Lebled* ("Presidente del Paese") divenne inno virale contro Ben Ali. Fu arrestato ma la canzone si era già diffusa
-- Egitto: graffitisti trasformarono le strade del Cairo. **Ganzeer**: murale di un carro armato contro un ragazzo in bicicletta
-- Siria: vignettista **Ali Ferzat** — il regime gli spezzò entrambe le mani, riconoscendo che i suoi disegni erano una minaccia
-- **Risultato:** Governi caduti in Tunisia, Egitto, Libia e Yemen
+### 4) The Arab Spring (2010–2012)
+- Tunisia: rapper **El Général** — *Raïs Lebled* ("President of the Country") became a viral protest anthem against President Ben Ali. He was arrested but the song had already spread
+- Egypt: graffiti artists transformed Cairo's streets. **Ganzeer**: mural depicting a tank facing a boy on a bicycle
+- Syria: political cartoonist **Ali Ferzat** — the regime broke both his hands, acknowledging his drawings were a threat
+- **Outcome:** Governments fell in Tunisia, Egypt, Libya, and Yemen
 
-### 5) Black Lives Matter (2013-oggi)
-- Nato dall'hashtag dopo l'uccisione di **Trayvon Martin** (2012), esplosione globale dopo l'omicidio di **George Floyd** (2020)
-- **Kendrick Lamar** — *Alright* (2015): inno non ufficiale del movimento
-- **Childish Gambino** — *This Is America* (2018): 800+ milioni di visualizzazioni
-- Estate 2020: murales di George Floyd in città di 6 continenti
-- "BLACK LIVES MATTER" scritto in lettere di 10 metri sulla strada verso la Casa Bianca — visibile dallo spazio
-- **Risultato:** Riforme di polizia, rimozione di monumenti confederati, conversazione globale sul razzismo sistemico
+### 5) Black Lives Matter (2013–present)
+- Born from the hashtag after the killing of **Trayvon Martin** (2012), global explosion after the murder of **George Floyd** (2020)
+- **Kendrick Lamar** — *Alright* (2015): unofficial anthem of the movement
+- **Childish Gambino** — *This Is America* (2018): 800+ million views
+- Summer 2020: George Floyd murals appeared in cities across 6 continents
+- "BLACK LIVES MATTER" painted in 35-foot letters on the street leading to the White House — visible from space
+- **Outcome:** Policing reforms, removal of Confederate monuments, global conversation on systemic racism
 
-**5 pattern ricorrenti:**
-1. La musica crea unità
-2. Le immagini definiscono i movimenti
-3. I governi temono l'arte (arresti, censura, studi demoliti)
-4. Ogni generazione costruisce sulla precedente
-5. La tecnologia amplifica il raggio d'azione
+**5 recurring patterns:**
+1. Music creates unity
+2. Images define movements
+3. Governments fear art (arrests, censorship, demolished studios)
+4. Each generation builds on the last
+5. Technology amplifies reach
 
 ---
 
 ## 06 — Video Games as Art
 
-**Concetto chiave:** I videogiochi sono unici come forma d'arte perché sono *interattivi* — non guardi l'ingiustizia, ci partecipi.
+**Key concept:** Video games are unique as an art form because they are *interactive* — you don't watch injustice, you participate in it.
 
-**6 tipi di giochi che sfidano e trasformano:**
-1. **Epic narrativi** — *The Last of Us*, *RDR2*: scelte morali, perdita, sopravvivenza
-2. **Simulatori di empatia** — *Papers, Please*, *This War of Mine*: ti fanno sentire cosa significa vivere sotto l'oppressione
-3. **Capolavori visivi** — *Journey*, *Gris*, *Ori*: arte visiva che evoca emozioni senza dialogo
-4. **Commento politico** — *BioShock* decostruisce l'oggettivismo di Ayn Rand. *Spec Ops: The Line* trasforma uno sparatutto in un manifesto anti-guerra
-5. **Esplorazione culturale** — *Never Alone* condivide il folklore Iñupiaq. *Okami* porta in vita la mitologia giapponese
-6. **Salute mentale & identità** — *Celeste* affronta ansia e depressione. *Hellblade: Senua's Sacrifice* ritrae la psicosi con accuratezza clinica
+**6 types of games that challenge and transform:**
+1. **Narrative-driven epics** — *The Last of Us*, *RDR2*: moral choices, loss, survival
+2. **Empathy simulators** — *Papers, Please*, *This War of Mine*: make you feel what it's like to live under oppression
+3. **Visual masterpieces** — *Journey*, *Gris*, *Ori*: visual art that evokes emotions without dialogue
+4. **Political commentary** — *BioShock* deconstructs Ayn Rand's objectivism. *Spec Ops: The Line* turns a military shooter into an anti-war statement
+5. **Cultural exploration** — *Never Alone* shares Iñupiaq folklore. *Okami* brings Japanese mythology to life
+6. **Mental health & identity** — *Celeste* tackles anxiety and depression. *Hellblade: Senua's Sacrifice* portrays psychosis with clinical accuracy
 
 **Case in Focus — Red Dead Redemption 2 (2018, Rockstar Games):**
-- Arthur Morgan, fuorilegge nel 1899, tra lealtà, moralità e la fine della frontiera americana
-- Dettagli straordinari: meteo dinamico, foreste con alberi che oscillano individualmente, fauna realistica
-- Temi sociali: spostamento dei nativi americani, brutalità dell'industrializzazione, divario ricchi-poveri
-- Sistema di onore: le scelte del giocatore cambiano il finale
-- 8 anni di sviluppo, ~2.000 persone coinvolte
+- Arthur Morgan, outlaw in 1899, torn between loyalty, morality, and the death of the American frontier
+- Extraordinary detail: dynamic weather, forests where every tree sways independently, realistic wildlife
+- Social themes: displacement of Native Americans, brutality of industrialisation, widening gap between rich and poor
+- Honour system: the player's choices change the ending
+- 8 years of development, ~2,000 people involved
 
 **Case in Focus — Papers, Please (2013, Lucas Pope):**
-- Ispettore di frontiera nello stato comunista fittizio di Arstotzka
-- La tua famiglia muore di fame, le regole cambiano ogni giorno
-- Una donna ti supplica di lasciarla passare per sfuggire al marito violento — ma i documenti sono sbagliati
-- Non ti fa una lezione sull'autoritarismo — ti rende *complice*
+- Border checkpoint inspector in the fictional communist state of Arstotzka
+- Your family is starving, the rules change daily
+- A woman begs you to let her through to escape her abusive husband — but her papers are wrong
+- It doesn't lecture about authoritarianism — it makes you *complicit*
 
 **Case in Focus — This War of Mine (2014):**
-- Civili intrappolati in una città assediata (ispirato all'Assedio di Sarajevo 1992-1996)
-- Scelte morali: rubare a una coppia di anziani? Sacrificare una persona per il gruppo?
-- Nel 2020 il governo polacco lo ha aggiunto alla lista di letture raccomandate per le scuole — primo videogioco ad avere lo stesso status culturale della letteratura
+- Civilians trapped in a besieged city (inspired by the Siege of Sarajevo, 1992–1996)
+- Moral choices: steal from an elderly couple? Sacrifice one person for the group?
+- In 2020 the Polish government added it to their official recommended reading list for schools — the first video game to be given the same cultural status as literature
 
-**4 motivi per cui i videogiochi funzionano come arte:**
-1. **L'interattività crea responsabilità** — Quando sei TU a premere il grilletto, il peso emotivo è personale
-2. **Il tempo crea profondità** — 30-100 ore di coinvolgimento costruiscono legami emotivi impossibili per un film di 2 ore
-3. **Il cambio di prospettiva cambia l'identità** — Vivere come un rifugiato, un soldato, un prigioniero costruisce empatia a livello neurologico
-4. **I giochi combinano ogni forma d'arte** — Musica, arte visiva, scrittura, architettura, cinematografia, performance
+**4 reasons why video games work as art:**
+1. **Interactivity creates responsibility** — When YOU pull the trigger, the emotional weight is personal
+2. **Time creates depth** — 30–100 hours of engagement build emotional bonds impossible for a 2-hour film
+3. **Perspective shifts identity** — Playing as a refugee, a soldier, a prisoner builds empathy at a neurological level
+4. **Games combine every art form** — Music, visual art, writing, architecture, cinematography, performance
 
-**Citazione:** *"Video games are the only form of art that lets you walk in another person's shoes — and then asks you to live with the footprints you leave."*
+**Quote:** *"Video games are the only form of art that lets you walk in another person's shoes — and then asks you to live with the footprints you leave."*
 
 ---
 
 ## 07 — The Digital Age
 
-**Concetto chiave:** L'era digitale ha cambiato tutto — un singolo tweet può far partire un movimento globale in poche ore.
+**Key concept:** The digital age changed everything — a single tweet can ignite a global movement in hours.
 
-**6 modi in cui il mondo digitale amplifica l'attivismo:**
-1. **Movimenti hashtag** — #BlackLivesMatter, #MeToo, #FridaysForFuture: organizzano milioni senza un solo volantino
-2. **Streaming & piattaforme musicali** — Spotify, Apple Music, YouTube scavalcano i gatekeeper tradizionali. *This Is America* raggiunse 100 milioni di views in pochi giorni
-3. **Arte virale & meme** — I meme sono le vignette politiche del XXI secolo. Il poster *Hope* di Fairey si diffuse online
-4. **Citizen journalism** — Gli smartphone hanno trasformato ogni spettatore in un giornalista. Video di George Floyd, Primavera Araba, proteste in livestream
-5. **Comunità online** — Discord, Reddit, Telegram: coordinamento in tempo reale oltre i confini
-6. **Crowdfunding & solidarietà digitale** — GoFundMe, Patreon, criptovalute: fondi per cauzione, assistenza legale, supporto mutuale
+**6 ways the digital world amplifies activism:**
+1. **Hashtag movements** — #BlackLivesMatter, #MeToo, #FridaysForFuture: organise millions without a single flyer
+2. **Streaming & music platforms** — Spotify, Apple Music, YouTube bypass traditional gatekeepers. *This Is America* reached 100 million views in days
+3. **Viral art & memes** — Memes are the political cartoons of the 21st century. Fairey's *Hope* poster spread online
+4. **Citizen journalism** — Smartphones turned every bystander into a journalist. George Floyd footage, Arab Spring videos, livestreamed protests
+5. **Online communities** — Discord, Reddit, Telegram: real-time coordination across borders
+6. **Crowdfunding & digital solidarity** — GoFundMe, Patreon, cryptocurrency: funds for bail, legal aid, mutual support
 
 **Case in Focus — #BlackLivesMatter:**
-- Hashtag creato nel 2013 da Alicia Garza, Patrisse Cullors e Opal Tometi dopo l'assoluzione dell'assassino di Trayvon Martin
-- Estate 2020 dopo George Floyd → la più grande ondata di proteste nella storia degli USA
-- Il video si diffuse su ogni piattaforma in poche ore
-- L'hashtag fu usato 47+ milioni di volte su Twitter in sole 2 settimane
-- Differenza rispetto al passato: negli anni '60 le notizie da Selma impiegavano giorni. Nel 2020 il mondo guardava in tempo reale
+- Hashtag created in 2013 by Alicia Garza, Patrisse Cullors, and Opal Tometi after the acquittal of Trayvon Martin's killer
+- Summer 2020 after George Floyd → the largest protest wave in United States history
+- The video spread across every platform within hours
+- The hashtag was used 47+ million times on Twitter in just 2 weeks
+- Difference from the past: in the 1960s, news from Selma took days to reach living rooms. In 2020, the world watched in real time
 
 **Case in Focus — "This Is America" (2018, Childish Gambino / Donald Glover):**
-- Il video giustappone danza gioiosa con violenza armata improvvisa — metafora visiva di come l'intrattenimento distrae dalla brutalità sistemica
-- In 24 ore, milioni lo analizzavano su Twitter, YouTube e Reddit
-- Vinse 4 Grammy Awards
-- Dimostrò che un singolo video musicale può funzionare come poster di protesta, documentario e chiamata all'azione contemporaneamente
+- The video juxtaposes joyful dancing with sudden gun violence — a visual metaphor for how entertainment distracts from systemic brutality
+- Within 24 hours, millions were dissecting it on Twitter, YouTube, and Reddit
+- Won 4 Grammy Awards
+- Proved that a single music video can function as a protest poster, a documentary, and a call to action — all at once
 
-**Case in Focus — Primavera Araba e rivolta digitale:**
-- Gruppi Facebook coordinarono le proteste in Piazza Tahrir in Egitto
-- Quando il governo spense internet, l'atto stesso divenne notizia mondiale
-- Il rapper tunisino **El Général** — *Raïs Lebled* condiviso milioni di volte nonostante la censura
-- L'era digitale ha reso possibile per l'arte correre più veloce dell'autoritarismo
+**Case in Focus — The Arab Spring & digital revolt:**
+- Facebook groups coordinated the massive protests in Tahrir Square, Egypt
+- When the government shut down the internet, the act itself became global news
+- Tunisian rapper **El Général** — *Raïs Lebled* shared millions of times despite censorship
+- The digital age made it possible for art to outrun authoritarianism
 
-**4 motivi per cui l'attivismo digitale funziona:**
-1. **La velocità sconfigge la censura** — Il contenuto diventa virale prima che le autorità reagiscano
-2. **Solidarietà senza confini** — Una protesta a Hong Kong ispira una veglia a Londra
-3. **Tutti hanno una piattaforma** — Non servono più etichetta discografica, galleria o editore. Bastano un telefono e una connessione
-4. **La visibilità crea responsabilità** — Quando l'ingiustizia è filmata e condivisa, diventa innegabile
+**4 reasons why digital activism works:**
+1. **Speed defeats censorship** — Content goes viral before authorities can react
+2. **Borderless solidarity** — A protest in Hong Kong inspires a vigil in London
+3. **Everyone has a platform** — You no longer need a record label, gallery, or publisher. Just a phone and an internet connection
+4. **Visibility creates accountability** — When injustice is filmed and shared, it becomes undeniable
 
-**Citazione:** *"In the digital age, the pen is mightier than ever — because the pen is now a phone, and the page is the entire world."*
+**Quote:** *"In the digital age, the pen is mightier than ever — because the pen is now a phone, and the page is the entire world."*
 
 ---
 
 ## 08 — Conclusion
 
-**Concetto chiave:** La creatività non è un lusso — è una necessità.
+**Key concept:** Creativity is not a luxury — it is a necessity.
 
-**Riassunto del percorso:**
-- Radici storiche → Musica come resistenza → Arte visiva e attivismo → Case studies → Videogiochi come arte → Era digitale
-- Dai canti di protesta intorno al fuoco agli hashtag che fanno il giro del mondo in secondi
+**Summary of the journey:**
+- Historical roots → Music as resistance → Visual art & activism → Case studies → Video games as art → The digital age
+- From protest songs sung around campfires to hashtags that circle the globe in seconds
 
-**6 punti chiave da ricordare:**
-1. **L'arte non è mai neutrale** — Ogni atto creativo è una scelta. L'arte che finge di essere apolitica sta semplicemente sostenendo lo status quo
-2. **La musica attraversa ogni confine** — Una melodia porta un messaggio dove le parole sole sarebbero silenziate
-3. **L'interattività approfondisce l'empatia** — I videogiochi ti fanno partecipare, non solo guardare
-4. **La tecnologia amplifica tutto** — Una canzone di protesta ora raggiunge un continente intero
-5. **La creatività appartiene a tutti** — I movimenti più potenti nascono da individui con un pennello, una chitarra, una telecamera o una tastiera
-6. **Il ciclo continua** — Ogni generazione trova nuovi modi creativi per combattere nuove ingiustizie
+**6 key takeaways:**
+1. **Art is never neutral** — Every creative act is a choice. Art that pretends to be apolitical is simply supporting the status quo
+2. **Music crosses every border** — A melody carries a message where words alone would be silenced
+3. **Interactivity deepens empathy** — Video games make you participate, not just watch
+4. **Technology amplifies everything** — A protest song now reaches an entire continent
+5. **Creativity belongs to everyone** — The most powerful movements were started by individuals with a paintbrush, a guitar, a camera, or a keyboard
+6. **The cycle continues** — Every generation finds new creative ways to fight new injustices
 
-**Perché è ancora importante:**
-1. **L'arte protegge la memoria** — Senza arte, la storia è scritta solo dai potenti
-2. **La creatività costruisce ponti** — Trasforma "loro" in "noi"
-3. **L'espressione è resistenza** — I sistemi autoritari cercano sempre di silenziare l'arte per prima
-4. **Il futuro è creativo** — AI, VR e nuove tecnologie espandono il potenziale dell'attivismo creativo
+**Why it still matters:**
+1. **Art protects memory** — Without art, history is written only by the powerful
+2. **Creativity builds bridges** — It transforms "them" into "us"
+3. **Expression is resistance** — Authoritarian systems always try to silence art first
+4. **The future is creative** — AI, VR, and new technologies expand the potential for creative activism
 
-**Messaggio finale:** La domanda non è se l'arte possa cambiare il mondo — la storia lo ha dimostrato. La domanda è: *cosa creerai tu?*
+**Final message:** The question is not whether art can change the world — history has answered that decisively. The question is: *what will you create?*
 
-**Citazione:** *"Every act of creation is, first of all, an act of destruction — of silence, of apathy, of the belief that nothing can change."* — ispirata a Pablo Picasso
+**Quote:** *"Every act of creation is, first of all, an act of destruction — of silence, of apathy, of the belief that nothing can change."* — inspired by Pablo Picasso
