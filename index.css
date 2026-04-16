@@ -191,6 +191,27 @@ a {
     animation: fadeSlideUp 0.8s ease forwards 1.3s;
 }
 
+.hero-authors .rgb-text {
+    background: linear-gradient(270deg, #ff2d55, #ff9500, #34c759, #5ac8fa, #5856d6, #ff2d55);
+    background-size: 400% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: rgbTextMove 4s linear infinite;
+}
+
+@keyframes rgbTextMove {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 .hero-cta {
     display: inline-block;
     padding: 0.85rem 2.4rem;

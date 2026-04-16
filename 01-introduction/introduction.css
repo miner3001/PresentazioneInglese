@@ -598,6 +598,95 @@ a {
     transition: opacity 0.6s ease, transform 0.6s ease;
 }
 
+/* ===== CAROUSEL ===== */
+.carousel-container {
+    position: relative;
+    margin-top: 1.5rem;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.4s ease;
+}
+
+.carousel-slide {
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(232, 164, 74, 0.3);
+    border: 1px solid rgba(232, 164, 74, 0.5);
+    color: rgba(232, 164, 74, 0.9);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+    z-index: 10;
+}
+
+.carousel-btn:hover {
+    background: rgba(232, 164, 74, 0.5);
+    box-shadow: 0 0 15px rgba(232, 164, 74, 0.4);
+    transform: translateY(-50%) scale(1.1);
+}
+
+.carousel-prev {
+    left: 10px;
+}
+
+.carousel-next {
+    right: 10px;
+}
+
+.carousel-dots {
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 8px;
+    z-index: 10;
+}
+
+.carousel-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: rgba(232, 164, 74, 0.3);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.carousel-dot.active {
+    background: rgba(232, 164, 74, 0.9);
+    width: 24px;
+    border-radius: 4px;
+}
+
+.carousel-dot:hover {
+    background: rgba(232, 164, 74, 0.6);
+}
+
 .footer.visible {
     opacity: 1;
     transform: translateY(0);

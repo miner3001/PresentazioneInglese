@@ -168,4 +168,45 @@ if (rdr2Image && rdr2Popup) {
             rdr2Popup.classList.remove('active');
         }
     });
+
+    // Carousel functionality
+    const carousel = document.getElementById('rdr2Carousel');
+    if (carousel) {
+        const track = carousel.querySelector('.carousel-track');
+        const slides = carousel.querySelectorAll('.carousel-slide');
+        const dots = carousel.querySelectorAll('.carousel-dot');
+        const prevBtn = document.getElementById('rdr2CarouselPrev');
+        const nextBtn = document.getElementById('rdr2CarouselNext');
+        
+        let currentSlide = 0;
+
+        function updateCarousel() {
+            track.style.transform = `translateX(-${currentSlide * 100}%)`;
+            dots.forEach((dot, i) => {
+                dot.classList.toggle('active', i === currentSlide);
+            });
+        }
+
+        function goToSlide(n) {
+            currentSlide = (n + slides.length) % slides.length;
+            updateCarousel();
+        }
+
+        prevBtn.addEventListener('click', () => goToSlide(currentSlide - 1));
+        nextBtn.addEventListener('click', () => goToSlide(currentSlide + 1));
+
+        dots.forEach((dot) => {
+            dot.addEventListener('click', () => {
+                goToSlide(parseInt(dot.dataset.slide));
+            });
+        });
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            if (carousel.closest('.popup-overlay')?.classList.contains('active')) {
+                if (e.key === 'ArrowLeft') goToSlide(currentSlide - 1);
+                if (e.key === 'ArrowRight') goToSlide(currentSlide + 1);
+            }
+        });
+    }
 }
