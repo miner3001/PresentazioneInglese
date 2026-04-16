@@ -365,5 +365,56 @@ class TextScramble {
                 setTimeout(() => { img.style.transition = ''; }, 400);
             });
         });
+
+        // --- Floating Music Player Button with Iframe Modal ---
+        // Create the button
+        const musicBtn = document.createElement('button');
+        musicBtn.id = 'floating-music-btn';
+        musicBtn.className = 'floating-music-btn';
+        musicBtn.innerHTML = '<i class="bi bi-music-note-beamed"></i>';
+        musicBtn.title = 'Open Music Player';
+        
+        // Create the modal overlay
+        const musicModal = document.createElement('div');
+        musicModal.id = 'music-modal';
+        musicModal.className = 'music-modal';
+        musicModal.innerHTML = `
+            <div class="music-modal-content">
+                <button class="music-modal-close" aria-label="Close">&times;</button>
+                <iframe src="https://miner3001.github.io/minerify/index.html" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                </iframe>
+            </div>
+        `;
+
+        // Append to body
+        document.body.appendChild(musicBtn);
+        document.body.appendChild(musicModal);
+
+        // Event listeners
+        musicBtn.addEventListener('click', () => {
+            musicModal.classList.add('active');
+        });
+
+        const closeBtn = musicModal.querySelector('.music-modal-close');
+        closeBtn.addEventListener('click', () => {
+            musicModal.classList.remove('active');
+        });
+
+        // Close on overlay click
+        musicModal.addEventListener('click', (e) => {
+            if (e.target === musicModal) {
+                musicModal.classList.remove('active');
+            }
+        });
+
+        // Close on Escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && musicModal.classList.contains('active')) {
+                musicModal.classList.remove('active');
+            }
+        });
     }
 })();
